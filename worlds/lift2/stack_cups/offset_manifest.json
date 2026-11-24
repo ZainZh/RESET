@@ -1,0 +1,33 @@
+{
+ "task": "stack_cups",
+ "candidate": "o1",
+ "source_setup": "runs/lift2_suite_20261108/smooth_table_v1_rigid/stack_cups",
+ "source_layouts_sha256": "ef32c1bd7a5c2404c3018e933f6c1382ec98bd01d51727dda4ec93e8a8b5e03c",
+ "derived_layouts_sha256": "ef115bfd7442ad224a6365bab42a17106ef57ed0638b53da619a9f71d3e17122",
+ "offset_base_xy_m": {
+  "object_blue_cup": [
+   0.12,
+   0.0
+  ],
+  "object_purple_cup": [
+   0.12,
+   0.0
+  ]
+ },
+ "translation_world_m": {
+  "object_blue_cup": [
+   0.006724950515374311,
+   -0.11981137787021295,
+   -9.366646578147065e-05
+  ],
+  "object_purple_cup": [
+   0.006724950515374311,
+   -0.11981137787021295,
+   -9.366646578147065e-05
+  ]
+ },
+ "per_seed_offsets_unchanged": true,
+ "orientation_unchanged": true,
+ "scene_sha256": "3acd095dddad36d0268acf64cd32fb0682ee996fd86a1f13ebea4306e69586aa",
+ "scene_identical_to_source_setup": true
+}

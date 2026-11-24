@@ -1,0 +1,160 @@
+{
+ "source_verify_json": "programs/g1/hand/probe_geom_r5/verify.json",
+ "source_verify_sha256": "60ec5f0814500b5d0ce361c7e93b792a2a39351d179bf748f64b058bc416f926",
+ "probe_script": "rsi/g1_suite/hand/probe_hand_verify.py",
+ "probe_script_sha256": "ce3357ce95135cd49084694d254388de97247c0fe16b4d0520f374c0dde07066",
+ "thumb_posture_fraction_of_range": {
+  "thumb_metacarpal": 0.7,
+  "thumb_proximal": 0.2,
+  "thumb_distal": "coupled 1.0 x proximal"
+ },
+ "finger_closure_definition": "proximal = f * min(range_hi, distal_range_hi/1.155); distal = 1.155 * proximal; index/middle/ring/pinky share f",
+ "frame_definition": "TCP origin = midpoint of nearest thumb-pad/index-pad points in {side}_base_link; lateral = unit thumb->index pad axis; approach = base z made orthogonal to lateral; x = lateral x approach",
+ "status": "geometry-only calibration; gap is not a grasp claim; physical contact/actuator executability still needs the hand-object diagnostic",
+ "sides": {
+  "left": {
+   "cube_32mm": {
+    "finger_closure_f": 0.492,
+    "pad_gap_mm": 31.96,
+    "target_mm": 32.0,
+    "usable_geometry": true,
+    "tcp_in_base": [
+     0.0548,
+     -0.0355,
+     0.0736
+    ],
+    "lateral_in_base": [
+     -0.5972,
+     0.3671,
+     0.7132
+    ],
+    "approach_in_base": [
+     0.6076,
+     -0.3735,
+     0.701
+    ],
+    "x_in_base": [
+     0.5237,
+     0.8519,
+     0.0
+    ],
+    "opp_axis_angle_from_base_z_deg": 44.5,
+    "joint_q": {
+     "left_thumb_metacarpal_joint": 1.0629,
+     "left_thumb_proximal_joint": 0.2094,
+     "left_index_proximal_joint": 0.7212,
+     "left_middle_proximal_joint": 0.7212,
+     "left_ring_proximal_joint": 0.7212,
+     "left_pinky_proximal_joint": 0.7212
+    }
+   },
+   "apple_68mm": {
+    "finger_closure_f": 0.156,
+    "pad_gap_mm": 68.23,
+    "target_mm": 68.0,
+    "usable_geometry": true,
+    "tcp_in_base": [
+     0.0459,
+     -0.0384,
+     0.086
+    ],
+    "lateral_in_base": [
+     -0.5787,
+     0.1919,
+     0.7926
+    ],
+    "approach_in_base": [
+     0.7523,
+     -0.2495,
+     0.6097
+    ],
+    "x_in_base": [
+     0.3148,
+     0.9492,
+     -0.0
+    ],
+    "opp_axis_angle_from_base_z_deg": 37.6,
+    "joint_q": {
+     "left_thumb_metacarpal_joint": 1.0629,
+     "left_thumb_proximal_joint": 0.2094,
+     "left_index_proximal_joint": 0.2287,
+     "left_middle_proximal_joint": 0.2287,
+     "left_ring_proximal_joint": 0.2287,
+     "left_pinky_proximal_joint": 0.2287
+    }
+   }
+  },
+  "right": {
+   "cube_32mm": {
+    "finger_closure_f": 0.5,
+    "pad_gap_mm": 32.01,
+    "target_mm": 32.0,
+    "usable_geometry": true,
+    "tcp_in_base": [
+     0.0556,
+     0.0355,
+     0.0732
+    ],
+    "lateral_in_base": [
+     -0.6139,
+     -0.365,
+     0.6999
+    ],
+    "approach_in_base": [
+     0.6016,
+     0.3577,
+     0.7142
+    ],
+    "x_in_base": [
+     -0.511,
+     0.8596,
+     0.0
+    ],
+    "opp_axis_angle_from_base_z_deg": 45.6,
+    "joint_q": {
+     "right_thumb_metacarpal_joint": 1.0629,
+     "right_thumb_proximal_joint": 0.2094,
+     "right_index_proximal_joint": 0.7329,
+     "right_middle_proximal_joint": 0.7329,
+     "right_ring_proximal_joint": 0.7329,
+     "right_pinky_proximal_joint": 0.7329
+    }
+   },
+   "apple_68mm": {
+    "finger_closure_f": 0.164,
+    "pad_gap_mm": 68.48,
+    "target_mm": 68.0,
+    "usable_geometry": true,
+    "tcp_in_base": [
+     0.0481,
+     0.0383,
+     0.0865
+    ],
+    "lateral_in_base": [
+     -0.559,
+     -0.199,
+     0.805
+    ],
+    "approach_in_base": [
+     0.7583,
+     0.27,
+     0.5933
+    ],
+    "x_in_base": [
+     -0.3354,
+     0.9421,
+     0.0
+    ],
+    "opp_axis_angle_from_base_z_deg": 36.4,
+    "joint_q": {
+     "right_thumb_metacarpal_joint": 1.0629,
+     "right_thumb_proximal_joint": 0.2094,
+     "right_index_proximal_joint": 0.2404,
+     "right_middle_proximal_joint": 0.2404,
+     "right_ring_proximal_joint": 0.2404,
+     "right_pinky_proximal_joint": 0.2404
+    }
+   }
+  }
+ }
+}

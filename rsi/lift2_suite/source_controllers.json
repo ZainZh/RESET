@@ -1,0 +1,30 @@
+{
+  "collect_cubes": {
+    "controller": "rsi/branches/collect_cubes/xtrainer_c30_drop_memory/controller.py",
+    "sha256": "954a63125680d1ad1ee5d77e0e6c7c1192a8ca8ef3c9c54471ef4fd6c4c1652b"
+  },
+  "build_tower": {
+    "controller": "rsi/branches/build_tower/xtrainer_t1/controller.py",
+    "sha256": "6d37f79d8651ca11fd09475bb7875e74660d8ebee7d9c569ab3d72b785f158f2"
+  },
+  "stack_cups": {
+    "controller": "rsi/branches/stack_cups/xtrainer_c6/controller.py",
+    "sha256": "df85a1b97bf00839141450c08b85ec550527c43b3f0c4b0e7deb50a2a2f6c30a"
+  },
+  "put_mug_on_box": {
+    "controller": "rsi/branches/put_mug_on_box/m1/controller.py",
+    "sha256": "7cd36e90acbded5a606003d5aaf18b8a021f641a3a60ab2321335d8992860c95"
+  },
+  "open_drawer_and_place_object": {
+    "controller": "rsi/branches/open_drawer_and_place_object/xtrainer_s1/controller.py",
+    "sha256": "f96965763bc549bacc8c1a283c88062b81dc3be0049f47a5edd82cd30986866f"
+  },
+  "lift_box": {
+    "controller": "rsi/branches/lift_box/xtrainer_b8/controller.py",
+    "sha256": "3c91dbe92be4aabc836df9971afd277c1101914fbe4b9c925e7278339907afb8"
+  },
+  "sweep_objects": {
+    "controller": "rsi/branches/sweep_objects/xtrainer_w9/controller.py",
+    "sha256": "7f49f21b7e2e3d5c28fef525a42fd3e58f7946c7bdfca92670301cde8e8df29f"
+  }
+}

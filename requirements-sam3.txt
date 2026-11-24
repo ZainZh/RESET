@@ -1,0 +1,22 @@
+# SAM3 perception server environment (Python 3.12, CUDA 12.8 wheels), as used for the paper runs.
+# SAM3 itself is installed from the official repository: https://github.com/facebookresearch/sam3
+#   (git commit 0570b3a5be9c4e694f23d85232fb55f4a6f1f7fc), e.g. `pip install -e <sam3 checkout>`.
+# The checkpoint sam3.pt is downloaded separately from the official source after accepting the SAM License.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+timm==1.0.31
+numpy==2.5.4
+pillow==13.0.0
+einops==0.8.2
+iopath==0.1.10
+huggingface_hub==2.4.0
+pycocotools==2.0.11
+ftfy==6.1.1
+regex==2026.11.9
+scipy==1.17.1
+safetensors==0.8.0
+opencv-python-headless==4.11.0.86
+pyyaml==6.0.3
+tqdm==4.70.1
+psutil==7.2.2

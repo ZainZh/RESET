@@ -1,0 +1,303 @@
+{
+  "task": "collect_apple",
+  "episode": "demonstrations/new_camera/grasp_apple/real_zed_bimanual_raw/episode_20261101151054_620748",
+  "source_manifest_sha256": "94a7985b6e9c501bf0538adc150e663d423e8a273311562f2843e8c8e41e6d37",
+  "recorded_frames": 28,
+  "duration_sec": 6.619589567184448,
+  "camera": {
+    "serial": 38968158,
+    "intrinsic": [
+      [
+        355.06634521484375,
+        0.0,
+        330.2505798339844
+      ],
+      [
+        0.0,
+        355.06634521484375,
+        183.61277770996094
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "width": 640,
+    "height": 360,
+    "extrinsics_modified": false,
+    "additional_timing_offset_sec": 0,
+    "time_basis": "independent recorded camera and robot timestamps"
+  },
+  "calibration_sources": {
+    "left": {
+      "path": "configs/calibration/current_20261102/robot_camera_left_global.yaml",
+      "sha256": "b1ce799b8dc04b2a974ab8a7dfd211e5cc30eafee9b59e6c8f16e14fd5572cba",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    },
+    "right": {
+      "path": "configs/calibration/current_20261102/robot_camera_right_global.yaml",
+      "sha256": "792a05f66533492e331064f581c0ad8888f601a0b35362fc94a2b6b8a68af31d",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    }
+  },
+  "right_base_in_left": [
+    [
+      -0.9989135630324595,
+      0.03515618330406268,
+      -0.030589808193045704,
+      0.04172148215233479
+    ],
+    [
+      -0.03550574317523641,
+      -0.9993093715729773,
+      0.010960022262564267,
+      -1.059686017402441
+    ],
+    [
+      -0.03018336945025105,
+      0.012034228762694927,
+      0.9994719313451058,
+      -0.003491638018496057
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gripper_mount_yaw_deg": {
+    "left": 270,
+    "right": 90
+  },
+  "gripper_observation": "observations are placeholders; recorded opening commands drive bounded finger motor forces; estimated_gripper in the reference archive is unused",
+  "table": {
+    "normal": [
+      -0.05186971696245714,
+      -0.0041803357723638745,
+      0.998645110765113
+    ],
+    "offset": -0.04472695535268426,
+    "center": [
+      0.034866130842524656,
+      -0.5060212470751952,
+      0.0444803789569498
+    ],
+    "half_size": [
+      0.36306983350113525,
+      0.3299000051982629,
+      0.018
+    ],
+    "rotation": [
+      [
+        -0.0567537030816041,
+        -0.9970398937097549,
+        -0.05186971696245714
+      ],
+      [
+        0.9983874501820826,
+        -0.056612932371936556,
+        -0.0041803357723638745
+      ],
+      [
+        0.0012314647556016718,
+        -0.05202332399502005,
+        0.998645110765113
+      ]
+    ],
+    "board_extent_note": "Back edge from recorded image; cropped near edge extended by 120mm.",
+    "depth_plane_rmse_mm": 1.9134654271462912,
+    "normal_tilt_from_left_base_deg": 2.982899171976825,
+    "inlier_points": 3023
+  },
+  "objects": [
+    {
+      "name": "apple",
+      "asset": "013_apple",
+      "segmentation_id": 1,
+      "box": [
+        208,
+        260,
+        263,
+        316
+      ],
+      "static": false,
+      "size_m": [
+        0.068,
+        0.068,
+        0.07
+      ]
+    },
+    {
+      "name": "bowl",
+      "asset": "024_bowl",
+      "segmentation_id": 2,
+      "box": [
+        287,
+        150,
+        387,
+        233
+      ],
+      "static": true,
+      "size_m": [
+        0.2,
+        0.2,
+        0.09
+      ],
+      "rgba": [
+        0.8,
+        0.74,
+        0.62,
+        1
+      ]
+    }
+  ],
+  "replay_mode": "motor torque control and contact dynamics",
+  "contact_driven_grasp_validated": false,
+  "limitations": [
+    "Camera calibration and single-view geometry have not been independently certified.",
+    "Mass, inertia, friction, compliance and force limits are nominal assumptions.",
+    "Bounded motor approach and clearance corrections differ from recorded robot commands and are saved in motor_targets.npz.",
+    "Only initial RGB-D geometry initializes rigid objects; subsequent recorded object tracking is unused.",
+    "Human reset motions remain visible in the source comparison but no simulated human is added."
+  ],
+  "source_segmentation_objects": [
+    "apple",
+    "bowl"
+  ],
+  "excluded_source_segmentation_objects": [],
+  "scene_variant": {},
+  "geometry_note": "",
+  "physical_initial_object_poses": {
+    "apple": [
+      [
+        0.9772382164526083,
+        0.21214492288179815,
+        0.0,
+        -0.08808188363339495
+      ],
+      [
+        -0.21214492288179818,
+        0.9772382164526082,
+        0.0,
+        -0.34880408440074606
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999991,
+        0.07438052859305706
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "bowl": [
+      [
+        0.998069465049359,
+        -0.062107511108446166,
+        0.0,
+        0.09182843634965232
+      ],
+      [
+        0.062107511108446166,
+        0.9980694650493593,
+        0.0,
+        -0.5174381475254776
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.09500636047252649
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "reference_tracking_for_comparison_only": {
+    "apple": {
+      "supported_frames": 28,
+      "frames": 28,
+      "median_depth_surface_distance_mm": 2.931112349948045,
+      "unsupported_frames": [],
+      "methods": {
+        "RGBD_registration": 28
+      }
+    },
+    "bowl": {
+      "supported_frames": 25,
+      "frames": 28,
+      "median_depth_surface_distance_mm": 20.42130346997046,
+      "unsupported_frames": [
+        19,
+        20,
+        21
+      ],
+      "methods": {
+        "fixed_initial_registration": 28
+      }
+    }
+  },
+  "motor_position_correction_m": {},
+  "grasp_geometry_settle_sec": 0.0,
+  "grasp_center_alignment_objects": [],
+  "geometry_approach_objects": [],
+  "motor_grasp_corrections": [],
+  "motor_window_corrections": [],
+  "brush_head_rolling_friction_m": 0.002,
+  "brush_bristle_contact_time_sec": 0.025,
+  "brush_bristle_contact_priority": 0,
+  "finger_force_limit_N": 8,
+  "fixture_placement_feedback": [],
+  "cup_release_clearance_m": 0.001,
+  "opening_stop_buffer_m": 0,
+  "finger_velocity_damping_Ns_m": 22,
+  "opening_velocity_limit_m_s": 0.05,
+  "grasp_head_height_offset_m": 0,
+  "rigid_object_pose_playback": false,
+  "grasp_constraints": false,
+  "gripper_color": "pale cream housing and front finger, dark rear finger, grey metal servo case",
+  "physical_parameters": "nominal assumptions, not measured hardware identification",
+  "container_collision_geometry": {
+    "bowl": {
+      "axis_xy_m": [
+        0.0003152025209097125,
+        0.00042408585563855474
+      ],
+      "profile_z_m": [
+        -0.04199999999999999,
+        -0.02749999999999999,
+        -0.01299999999999999,
+        0.0015000000000000083,
+        0.016000000000000007,
+        0.030500000000000006,
+        0.045
+      ],
+      "outer_radius_m": [
+        0.05813004737144299,
+        0.07054268416061515,
+        0.07842696027200058,
+        0.0838821475193616,
+        0.08788964386811637,
+        0.09081201632872545,
+        0.09949591902692323
+      ],
+      "wall_thickness_m": 0.003
+    }
+  }
+}

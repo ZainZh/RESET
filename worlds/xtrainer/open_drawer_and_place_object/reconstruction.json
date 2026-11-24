@@ -1,0 +1,389 @@
+{
+  "task": "open_drawer_and_place_object",
+  "episode": "demonstrations/new_camera/open_drawer/real_zed_bimanual_raw/episode_20261101151508_703956",
+  "source_manifest_sha256": "d19bb63aa200c3d6f7699110e23d014e4bd8efcaf69cf94ff0b417db8bdbc275",
+  "recorded_frames": 104,
+  "duration_sec": 24.981961250305176,
+  "camera": {
+    "serial": 38968158,
+    "intrinsic": [
+      [
+        355.122802734375,
+        0.0,
+        330.2503662109375
+      ],
+      [
+        0.0,
+        355.122802734375,
+        183.61363220214844
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "width": 640,
+    "height": 360,
+    "extrinsics_modified": false,
+    "additional_timing_offset_sec": 0,
+    "time_basis": "independent recorded camera and robot timestamps"
+  },
+  "calibration_sources": {
+    "left": {
+      "path": "configs/calibration/current_20261102/robot_camera_left_global.yaml",
+      "sha256": "b1ce799b8dc04b2a974ab8a7dfd211e5cc30eafee9b59e6c8f16e14fd5572cba",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    },
+    "right": {
+      "path": "configs/calibration/current_20261102/robot_camera_right_global.yaml",
+      "sha256": "792a05f66533492e331064f581c0ad8888f601a0b35362fc94a2b6b8a68af31d",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    }
+  },
+  "right_base_in_left": [
+    [
+      -0.9989135630324595,
+      0.03515618330406268,
+      -0.030589808193045704,
+      0.04172148215233479
+    ],
+    [
+      -0.03550574317523641,
+      -0.9993093715729773,
+      0.010960022262564267,
+      -1.059686017402441
+    ],
+    [
+      -0.03018336945025105,
+      0.012034228762694927,
+      0.9994719313451058,
+      -0.003491638018496057
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gripper_mount_yaw_deg": {
+    "left": 270,
+    "right": 90
+  },
+  "gripper_observation": "observations are placeholders; recorded opening commands drive bounded finger motor forces; estimated_gripper in the reference archive is unused",
+  "table": {
+    "normal": [
+      -0.05052942432989111,
+      -0.006295331091411227,
+      0.9987027315890047
+    ],
+    "offset": -0.04538793068002448,
+    "center": [
+      0.03565359279602959,
+      -0.5075021229266267,
+      0.044051739235642776
+    ],
+    "half_size": [
+      0.36355636880002035,
+      0.3304236788499643,
+      0.018
+    ],
+    "rotation": [
+      [
+        -0.059951269926398834,
+        -0.9969215728988424,
+        -0.05052942432989111
+      ],
+      [
+        0.99819598517189,
+        -0.05970882676095176,
+        -0.006295331091411227
+      ],
+      [
+        0.003258898729924599,
+        -0.05081568159268137,
+        0.9987027315890047
+      ]
+    ],
+    "board_extent_note": "Back edge from recorded image; cropped near edge extended by 120mm.",
+    "depth_plane_rmse_mm": 1.830957320099437,
+    "normal_tilt_from_left_base_deg": 2.9187675725666855,
+    "inlier_points": 3165
+  },
+  "objects": [
+    {
+      "name": "drawer_shell",
+      "asset": "drawer_shell",
+      "segmentation_id": 1,
+      "box": [
+        280,
+        136,
+        385,
+        233
+      ],
+      "static": true,
+      "points": [
+        [
+          330,
+          160
+        ],
+        [
+          300,
+          180
+        ],
+        [
+          365,
+          185
+        ]
+      ],
+      "negative_points": [
+        [
+          330,
+          218
+        ]
+      ],
+      "initial_yaw_deg": -90,
+      "size_m": [
+        0.17,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "name": "drawer",
+      "asset": "drawer",
+      "segmentation_id": 2,
+      "box": [
+        285,
+        197,
+        380,
+        233
+      ],
+      "static": false,
+      "points": [
+        [
+          300,
+          212
+        ],
+        [
+          360,
+          214
+        ],
+        [
+          330,
+          226
+        ]
+      ],
+      "size_m": [
+        0.156,
+        0.2,
+        0.085
+      ]
+    },
+    {
+      "name": "orange_cube",
+      "asset": "cube",
+      "segmentation_id": 3,
+      "box": [
+        432,
+        282,
+        462,
+        314
+      ],
+      "static": false,
+      "rgba": [
+        1,
+        0.3,
+        0.02,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          447,
+          298
+        ]
+      ]
+    }
+  ],
+  "replay_mode": "motor torque control and contact dynamics",
+  "contact_driven_grasp_validated": false,
+  "limitations": [
+    "Camera calibration and single-view geometry have not been independently certified.",
+    "Mass, inertia, friction, compliance and force limits are nominal assumptions.",
+    "Bounded motor approach and clearance corrections differ from recorded robot commands and are saved in motor_targets.npz.",
+    "Only initial RGB-D geometry initializes rigid objects; subsequent recorded object tracking is unused.",
+    "Human reset motions remain visible in the source comparison but no simulated human is added."
+  ],
+  "source_segmentation_objects": [
+    "drawer_shell",
+    "drawer",
+    "orange_cube"
+  ],
+  "excluded_source_segmentation_objects": [],
+  "scene_variant": {},
+  "geometry_note": "",
+  "drawer_guide": "passive prismatic joint; driven only by finger contact",
+  "physical_initial_object_poses": {
+    "drawer_shell": [
+      [
+        0.06668103555719816,
+        0.9977743429739107,
+        0.0,
+        0.18158907360052254
+      ],
+      [
+        -0.9977743429739107,
+        0.06668103555719815,
+        0.0,
+        -0.4928686968431382
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999993,
+        0.10681189327264763
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "drawer": [
+      [
+        0.06668103555719816,
+        0.9977743429739107,
+        0.0,
+        0.17360687885673126
+      ],
+      [
+        -0.9977743429739107,
+        0.06668103555719815,
+        0.0,
+        -0.4934021451275958
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999993,
+        0.10681189327264763
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orange_cube": [
+      [
+        -0.968557820451818,
+        -0.24878856171782632,
+        0.0,
+        -0.06015186099995418
+      ],
+      [
+        0.2487885617178264,
+        -0.9685578204518179,
+        0.0,
+        -0.707526725935454
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999997,
+        0.05496096572400814
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "reference_tracking_for_comparison_only": {
+    "drawer_shell": {
+      "supported_frames": 90,
+      "frames": 104,
+      "median_depth_surface_distance_mm": 24.335105698910528,
+      "unsupported_frames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "methods": {
+        "fixed_initial_registration": 104
+      }
+    },
+    "drawer": {
+      "supported_frames": 104,
+      "frames": 104,
+      "median_depth_surface_distance_mm": 8.668638551726888,
+      "unsupported_frames": [],
+      "methods": {
+        "RGBD_prismatic_front": 104
+      }
+    },
+    "orange_cube": {
+      "supported_frames": 100,
+      "frames": 104,
+      "median_depth_surface_distance_mm": 2.894475691653749,
+      "unsupported_frames": [
+        79,
+        80,
+        81,
+        85
+      ],
+      "methods": {
+        "RGBD_registration": 100,
+        "held_prediction": 4
+      }
+    }
+  },
+  "motor_position_correction_m": {},
+  "grasp_geometry_settle_sec": 0.0,
+  "grasp_center_alignment_objects": [],
+  "geometry_approach_objects": [],
+  "motor_grasp_corrections": [],
+  "motor_window_corrections": [],
+  "brush_head_rolling_friction_m": 0.002,
+  "brush_bristle_contact_time_sec": 0.025,
+  "brush_bristle_contact_priority": 0,
+  "finger_force_limit_N": 8,
+  "fixture_placement_feedback": [],
+  "cup_release_clearance_m": 0.001,
+  "opening_stop_buffer_m": 0,
+  "finger_velocity_damping_Ns_m": 22,
+  "opening_velocity_limit_m_s": 0.05,
+  "grasp_head_height_offset_m": 0,
+  "rigid_object_pose_playback": false,
+  "grasp_constraints": false,
+  "gripper_color": "pale cream housing and front finger, dark rear finger, grey metal servo case",
+  "physical_parameters": "nominal assumptions, not measured hardware identification",
+  "container_collision_geometry": {}
+}

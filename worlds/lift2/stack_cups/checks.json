@@ -1,0 +1,466 @@
+{
+ "summary": {
+  "n_layouts_with_penetration": 13,
+  "object_blue_cup": {
+   "visible": 20,
+   "min_margin_px": 35.4,
+   "ik_min_yaws": 6
+  },
+  "object_purple_cup": {
+   "visible": 20,
+   "min_margin_px": 52.0,
+   "ik_min_yaws": 6
+  }
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 41.7,
+    "base_xy": [
+     0.423,
+     0.086
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 87.9,
+    "base_xy": [
+     0.449,
+     -0.07
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 1,
+   "penetrations": [
+    "table|purple_cup_solid_bottom:-0.0002"
+   ],
+   "object_blue_cup": {
+    "margin_px": 35.4,
+    "base_xy": [
+     0.419,
+     0.101
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 122.1,
+    "base_xy": [
+     0.48,
+     -0.063
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 2,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0007",
+    "table|purple_cup_solid_bottom:-0.0006",
+    "table|purple_cup_solid_bottom:-0.0008",
+    "table|purple_cup_solid_wall_0_0:-0.0001",
+    "table|purple_cup_solid_wall_0_29:-0.0001",
+    "table|purple_cup_solid_wall_0_30:-0.0001",
+    "table|purple_cup_solid_wall_0_31:-0.0001"
+   ],
+   "object_blue_cup": {
+    "margin_px": 55.6,
+    "base_xy": [
+     0.478,
+     0.139
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 80.2,
+    "base_xy": [
+     0.444,
+     -0.038
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 3,
+   "penetrations": [
+    "table|purple_cup_solid_bottom:-0.0001",
+    "table|purple_cup_solid_bottom:-0.0003"
+   ],
+   "object_blue_cup": {
+    "margin_px": 122.8,
+    "base_xy": [
+     0.492,
+     0.073
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 52.9,
+    "base_xy": [
+     0.421,
+     -0.059
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 4,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 72.6,
+    "base_xy": [
+     0.448,
+     0.094
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 106.5,
+    "base_xy": [
+     0.494,
+     -0.123
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 5,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 54.1,
+    "base_xy": [
+     0.433,
+     0.08
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 123.9,
+    "base_xy": [
+     0.481,
+     -0.089
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 6,
+   "penetrations": [
+    "table|purple_cup_solid_bottom:-0.0004",
+    "table|purple_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 89.4,
+    "base_xy": [
+     0.463,
+     0.096
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 134.0,
+    "base_xy": [
+     0.492,
+     -0.045
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 7,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0001",
+    "table|purple_cup_solid_bottom:-0.0005",
+    "table|purple_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 54.3,
+    "base_xy": [
+     0.434,
+     0.114
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 125.7,
+    "base_xy": [
+     0.484,
+     -0.043
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 8,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0006",
+    "table|purple_cup_solid_bottom:-0.0004",
+    "table|purple_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 52.7,
+    "base_xy": [
+     0.449,
+     0.132
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 75.5,
+    "base_xy": [
+     0.44,
+     -0.046
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 9,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 65.6,
+    "base_xy": [
+     0.481,
+     0.133
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 101.3,
+    "base_xy": [
+     0.484,
+     -0.124
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 10,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 50.6,
+    "base_xy": [
+     0.43,
+     0.072
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 60.9,
+    "base_xy": [
+     0.427,
+     -0.087
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 11,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0001",
+    "table|blue_cup_solid_bottom:-0.0008"
+   ],
+   "object_blue_cup": {
+    "margin_px": 55.9,
+    "base_xy": [
+     0.484,
+     0.141
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 100.6,
+    "base_xy": [
+     0.459,
+     -0.102
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 12,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 39.2,
+    "base_xy": [
+     0.421,
+     0.088
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 72.1,
+    "base_xy": [
+     0.435,
+     -0.103
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 13,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0003"
+   ],
+   "object_blue_cup": {
+    "margin_px": 47.0,
+    "base_xy": [
+     0.428,
+     0.121
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 147.0,
+    "base_xy": [
+     0.504,
+     -0.088
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 14,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0003",
+    "table|purple_cup_solid_bottom:-0.0002",
+    "table|purple_cup_solid_bottom:-0.0003"
+   ],
+   "object_blue_cup": {
+    "margin_px": 53.8,
+    "base_xy": [
+     0.434,
+     0.121
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 141.8,
+    "base_xy": [
+     0.5,
+     -0.057
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 15,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 123.7,
+    "base_xy": [
+     0.493,
+     0.065
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 69.9,
+    "base_xy": [
+     0.434,
+     -0.083
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 16,
+   "penetrations": [],
+   "object_blue_cup": {
+    "margin_px": 75.0,
+    "base_xy": [
+     0.45,
+     0.08
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 57.1,
+    "base_xy": [
+     0.424,
+     -0.09
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 17,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 61.8,
+    "base_xy": [
+     0.475,
+     0.134
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 126.8,
+    "base_xy": [
+     0.483,
+     -0.102
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 18,
+   "penetrations": [
+    "table|purple_cup_solid_bottom:-0.0004",
+    "table|purple_cup_solid_bottom:-0.0006"
+   ],
+   "object_blue_cup": {
+    "margin_px": 82.0,
+    "base_xy": [
+     0.456,
+     0.076
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 52.0,
+    "base_xy": [
+     0.421,
+     -0.047
+    ],
+    "ik_ok_yaws": 6
+   }
+  },
+  {
+   "layout": 19,
+   "penetrations": [
+    "table|blue_cup_solid_bottom:-0.0002",
+    "table|purple_cup_solid_bottom:-0.0007",
+    "table|purple_cup_solid_bottom:-0.0008",
+    "table|purple_cup_solid_wall_0_0:-0.0002",
+    "table|purple_cup_solid_wall_0_1:-0.0001",
+    "table|purple_cup_solid_wall_0_29:-0.0002",
+    "table|purple_cup_solid_wall_0_30:-0.0002",
+    "table|purple_cup_solid_wall_0_31:-0.0002"
+   ],
+   "object_blue_cup": {
+    "margin_px": 73.0,
+    "base_xy": [
+     0.449,
+     0.114
+    ],
+    "ik_ok_yaws": 6
+   },
+   "object_purple_cup": {
+    "margin_px": 109.1,
+    "base_xy": [
+     0.469,
+     -0.036
+    ],
+    "ik_ok_yaws": 6
+   }
+  }
+ ]
+}

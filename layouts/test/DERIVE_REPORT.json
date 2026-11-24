@@ -1,0 +1,357 @@
+{
+ "cells": [
+  {
+   "robot": "lift2",
+   "task": "collect_apple",
+   "setup": "worlds/lift2/collect_apple",
+   "kind": "make_offsets",
+   "dev_setup_layouts": "worlds/lift2/collect_apple/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "a39223ac92da9a97ec1eb918b41cba1edaf7fb12356f53f9596562b8c7b39c72",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "offsets_world_m": {
+     "object_apple": [
+      -0.042796282698219446,
+      -0.3029130109969503,
+      -0.0034908388641606645
+     ],
+     "object_bowl": [
+      -0.035341299501883326,
+      -0.08213551330944582,
+      -0.0021794501398362115
+     ]
+    }
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/collect_apple__collect_apple_o3__test0_49.json",
+   "test_layouts_sha256": "44966d86f58bd2ce029638aa5e4bcc0214c88f8749f1a9180025db18f65b3662",
+   "test_source": "layouts/test/source/test_layouts_collect_apple_0_49.json",
+   "test_source_sha256": "982a31744cdec7c9eafb1f62cc1f2b97a2ebde8467d85f4ca7312fab90c8ab00"
+  },
+  {
+   "robot": "lift2",
+   "task": "collect_cubes",
+   "setup": "worlds/lift2/collect_cubes",
+   "kind": "build_offset_setup",
+   "dev_setup_layouts": "worlds/lift2/collect_cubes/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "7156f8b9f01ff299ad6172556cc1b3ec6ebf43a09789d0c8fb34d5c7b36a3ec2",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "translation_world_m": {
+     "object_bowl": [
+      -0.0027800118558613134,
+      -0.13812000431180307,
+      -0.00012626554862045294
+     ],
+     "object_yellow_cube": [
+      0.17758824335635695,
+      -0.3575243204570219,
+      0.008737625727165008
+     ],
+     "object_yellow_bar": [
+      -0.0004508453173665875,
+      0.1367538142308372,
+      -3.2121915758213556e-05
+     ],
+     "object_green_cube": [
+      -0.23797656578395113,
+      0.13486325176728872,
+      -0.011683640718101455
+     ],
+     "object_purple_cube": [
+      0.15397354993562554,
+      0.14442266670605233,
+      0.007542497048985159
+     ],
+     "object_blue_cube": [
+      -0.05886507231506533,
+      -0.2585299092986293,
+      -0.002868668573507385
+     ]
+    }
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/collect_cubes__collect_cubes_o2__test0_49.json",
+   "test_layouts_sha256": "fd314d24bf98e1c303f9697a5f223613a1c4b2961bdcebb8a0d5afc9be8d4d3f",
+   "test_source": "layouts/test/source/test_layouts_collect_cubes_0_49.json",
+   "test_source_sha256": "3b2f3768b8703544d07ab2656bde6db7be5866ed40ae8c77aeeb5b7f7e478ce7"
+  },
+  {
+   "robot": "lift2",
+   "task": "stack_cups",
+   "setup": "worlds/lift2/stack_cups",
+   "kind": "build_offset_setup",
+   "dev_setup_layouts": "worlds/lift2/stack_cups/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "c592a11033521525195bdb463f96d08ee3f8ee5a0f3c10deaa96ae6ebb4650e8",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "translation_world_m": {
+     "object_blue_cup": [
+      0.006724950515374311,
+      -0.11981137787021295,
+      -9.366646578147065e-05
+     ],
+     "object_purple_cup": [
+      0.006724950515374311,
+      -0.11981137787021295,
+      -9.366646578147065e-05
+     ]
+    }
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/stack_cups__stack_cups_o1__test0_49.json",
+   "test_layouts_sha256": "73e41c765c64a1f7c4f245b33b7d1587ac14aa1b9c87577111e51d0d24ffc44d",
+   "test_source": "layouts/test/source/test_layouts_stack_cups_0_49.json",
+   "test_source_sha256": "d5a72e43cd3147ebbb171f10e0491394d275c86bdd26e1e97e91d50eecc4d861"
+  },
+  {
+   "robot": "lift2",
+   "task": "build_tower",
+   "setup": "worlds/lift2/build_tower",
+   "kind": "identity",
+   "dev_setup_layouts": "runs/lift2_suite_20261108/worlds/dev_layouts_build_tower_0_19.json",
+   "dev_setup_layouts_sha256": "935fbb9cd1e9b3d618a9810301b2674432338f636f6981c17931b9068075b17b",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/build_tower__build_tower__test0_49.json",
+   "test_layouts_sha256": "526fa74894b73ebc5645207db9ebdb9abb14ccbf076a24fb67cf095d8913fa33",
+   "test_source": "layouts/test/source/test_layouts_build_tower_0_49.json",
+   "test_source_sha256": "eb6e27083914409922c2944b25741f5bd5a5c04e922681c9196247be260f6766"
+  },
+  {
+   "robot": "lift2",
+   "task": "put_mug_on_box",
+   "setup": "worlds/lift2/put_mug_on_box",
+   "kind": "make_offsets",
+   "dev_setup_layouts": "worlds/lift2/put_mug_on_box/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "27de42905419debbd9a53f8fe5780c3c354c3df8a788def42c1c6851aa97975d",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "offsets_world_m": {
+     "object_mug": [
+      0.049752774250473586,
+      -0.15723624208479287,
+      0.0011939972503438125
+     ]
+    }
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/put_mug_on_box__put_mug_on_box_o13__test0_49.json",
+   "test_layouts_sha256": "f0063952872199be0667795a09377c9b25fa05a19ad368256f6d088fb5e8c467",
+   "test_source": "layouts/test/source/test_layouts_put_mug_on_box_0_49.json",
+   "test_source_sha256": "394e2bc8d93c80a3e650f92d92e8c2f46b020ba8927e73ed2a887be3bdfbb811"
+  },
+  {
+   "robot": "lift2",
+   "task": "open_drawer_and_place_object",
+   "setup": "worlds/lift2/open_drawer_and_place_object",
+   "kind": "identity",
+   "dev_setup_layouts": "runs/lift2_suite_20261108/worlds/dev_layouts_open_drawer_and_place_object_0_19.json",
+   "dev_setup_layouts_sha256": "1e751aaa339f51773c11a821933dbec46d699a0a95c8935d2655759ca3b264f0",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/open_drawer_and_place_object__open_drawer_and_place_object__test0_49.json",
+   "test_layouts_sha256": "ddb92442382ea1f1089af5244e8719f55322b92133824bd458d400415e0b4713",
+   "test_source": "layouts/test/source/test_layouts_open_drawer_and_place_object_0_49.json",
+   "test_source_sha256": "844fd2fc6b5ff8cb29aba90f21a4762188039b3c6633b571a749dd1d8195071f"
+  },
+  {
+   "robot": "lift2",
+   "task": "sweep_objects",
+   "setup": "worlds/lift2/sweep_objects",
+   "kind": "sweep_group",
+   "dev_setup_layouts": "worlds/lift2/sweep_objects/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "1b3e8e086a678ccc78b94253fe76a28080a612d8d26bc2d1c4b0396d5348293c",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "yaw_deg_about_table_normal": -80,
+    "table_normal": [
+     -0.0483807759672128,
+     -0.005009444262726367,
+     0.998816402541022
+    ],
+    "pivot_world": [
+     -0.021063151170000002,
+     -0.37083362659999985,
+     0.04228531431922862
+    ],
+    "target_world": [
+     0.12,
+     -0.485,
+     0.04854555855816234
+    ]
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/sweep_objects__sweep_g4__test0_49.json",
+   "test_layouts_sha256": "7387e4eb1b986ee5899de1aab37a8d34a3fc16fb0d012c07f928dedb2ea72999",
+   "test_source": "layouts/test/source/test_layouts_sweep_objects_0_49.json",
+   "test_source_sha256": "b25bbbfc705c608f84be14b0fd19adff6edd39cdb9a36eca1b38088df06b1406"
+  },
+  {
+   "robot": "lift2",
+   "task": "lift_box",
+   "setup": "worlds/lift2/lift_box",
+   "kind": "build_offsets",
+   "dev_setup_layouts": "worlds/lift2/lift_box/layouts_dev0_19.json",
+   "dev_setup_layouts_sha256": "2fe9151489e7a3621e8d91bbb0cd050db3290b86853c4e0097464ce0f11268dd",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {
+    "translation_world_m": {
+     "object_carton": [
+      0.2497275395293,
+      -0.12393348560426332,
+      0.008500264838645943
+     ],
+     "object_box": [
+      -0.23885616490726802,
+      -0.06158300331885713,
+      -0.00960105337686074
+     ]
+    }
+   },
+   "status": "ok",
+   "test_layouts": "layouts/test/lift2/lift_box__lift_box_o4__test0_49.json",
+   "test_layouts_sha256": "41a26baf5ee5d562875b073687f16156beeb8748bfa50bcf048136175af775a7",
+   "test_source": "layouts/test/source/test_layouts_lift_box_0_49.json",
+   "test_source_sha256": "89ebd275dc5a3a8b9b6c2a3b5f1975d241d3e42b4c02a54f4d3dcbec0f167060"
+  },
+  {
+   "robot": "franka",
+   "task": "collect_cubes",
+   "setup": "worlds/franka/collect_cubes",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/collect_cubes/layouts.json",
+   "dev_setup_layouts_sha256": "ff2347a38ccebd89d8c2963af83c1036edcd0a3af275cb40f64ff2d2f3304d28",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/collect_cubes__collect_cubes__test0_49.json",
+   "test_layouts_sha256": "6c2a3471e72aa36cf47ec94f8027361eab717451fe294c910ab27422f629d410",
+   "test_source": "layouts/test/source/test_layouts_collect_cubes_0_49.json",
+   "test_source_sha256": "3b2f3768b8703544d07ab2656bde6db7be5866ed40ae8c77aeeb5b7f7e478ce7"
+  },
+  {
+   "robot": "franka",
+   "task": "stack_cups",
+   "setup": "worlds/franka/stack_cups",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/stack_cups/layouts.json",
+   "dev_setup_layouts_sha256": "ef32c1bd7a5c2404c3018e933f6c1382ec98bd01d51727dda4ec93e8a8b5e03c",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/stack_cups__stack_cups__test0_49.json",
+   "test_layouts_sha256": "ae5033bebb2f98219a8615dcc82f01fb65f124c28d810938f9a80ef68046914d",
+   "test_source": "layouts/test/source/test_layouts_stack_cups_0_49.json",
+   "test_source_sha256": "d5a72e43cd3147ebbb171f10e0491394d275c86bdd26e1e97e91d50eecc4d861"
+  },
+  {
+   "robot": "franka",
+   "task": "build_tower",
+   "setup": "worlds/franka/build_tower",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/build_tower/layouts.json",
+   "dev_setup_layouts_sha256": "935fbb9cd1e9b3d618a9810301b2674432338f636f6981c17931b9068075b17b",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/build_tower__build_tower__test0_49.json",
+   "test_layouts_sha256": "9576823ed9131c1895d4796f52524662d19b820944bc36460fdde30d4e1027a5",
+   "test_source": "layouts/test/source/test_layouts_build_tower_0_49.json",
+   "test_source_sha256": "eb6e27083914409922c2944b25741f5bd5a5c04e922681c9196247be260f6766"
+  },
+  {
+   "robot": "franka",
+   "task": "put_mug_on_box",
+   "setup": "worlds/franka/put_mug_on_box",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/put_mug_on_box/layouts.json",
+   "dev_setup_layouts_sha256": "33783538cdb4705906a5b02d8fa99c00cd09399e5069eedf6c866b38fa8e6bda",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/put_mug_on_box__put_mug_on_box__test0_49.json",
+   "test_layouts_sha256": "48a0e3c0c26ada68903c6dcd8c034e3b494867ae3abacb6a4fbdf3bfbf82db02",
+   "test_source": "layouts/test/source/test_layouts_put_mug_on_box_0_49.json",
+   "test_source_sha256": "394e2bc8d93c80a3e650f92d92e8c2f46b020ba8927e73ed2a887be3bdfbb811"
+  },
+  {
+   "robot": "franka",
+   "task": "open_drawer_and_place_object",
+   "setup": "worlds/franka/open_drawer_and_place_object",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/open_drawer_and_place_object/layouts.json",
+   "dev_setup_layouts_sha256": "1e751aaa339f51773c11a821933dbec46d699a0a95c8935d2655759ca3b264f0",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/open_drawer_and_place_object__open_drawer_and_place_object__test0_49.json",
+   "test_layouts_sha256": "83fe7314877883a58a2133b426a5d067c56de767b5185de462ae18028668d5db",
+   "test_source": "layouts/test/source/test_layouts_open_drawer_and_place_object_0_49.json",
+   "test_source_sha256": "844fd2fc6b5ff8cb29aba90f21a4762188039b3c6633b571a749dd1d8195071f"
+  },
+  {
+   "robot": "franka",
+   "task": "sweep_objects",
+   "setup": "worlds/franka/sweep_objects",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/sweep_objects/layouts.json",
+   "dev_setup_layouts_sha256": "ae17336462e3ade38f0477b958db7b393c97147f54479b0273a34f08765fa34d",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/sweep_objects__sweep_objects__test0_49.json",
+   "test_layouts_sha256": "24ebc17578ed41fcc732bbb91dc31d5a5c424d511d31ee0bcd50493b29ccf6ed",
+   "test_source": "layouts/test/source/test_layouts_sweep_objects_0_49.json",
+   "test_source_sha256": "b25bbbfc705c608f84be14b0fd19adff6edd39cdb9a36eca1b38088df06b1406"
+  },
+  {
+   "robot": "franka",
+   "task": "lift_box",
+   "setup": "worlds/franka/lift_box",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/lift_box/layouts.json",
+   "dev_setup_layouts_sha256": "515421111a81cfa254058e01aa90ef026b6d83411308d777505abf0e4aaa63ea",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/lift_box__lift_box__test0_49.json",
+   "test_layouts_sha256": "4fc76323e59a94b543800292cdf53d3ba4254d4fe045d1f83e4932d4a7742df3",
+   "test_source": "layouts/test/source/test_layouts_lift_box_0_49.json",
+   "test_source_sha256": "89ebd275dc5a3a8b9b6c2a3b5f1975d241d3e42b4c02a54f4d3dcbec0f167060"
+  },
+  {
+   "robot": "franka",
+   "task": "collect_apple",
+   "setup": "worlds/franka/collect_apple",
+   "kind": "identity",
+   "dev_setup_layouts": "worlds/franka/collect_apple/layouts.json",
+   "dev_setup_layouts_sha256": "a25ac444ac4702dfb2560ec1ca0bb6b891715acbf9db8059f33a9cccc74404e9",
+   "dev_reproduced_exactly": true,
+   "dev_max_abs_diff": 0.0,
+   "params": {},
+   "status": "ok",
+   "test_layouts": "layouts/test/franka/collect_apple__collect_apple__test0_49.json",
+   "test_layouts_sha256": "73d3474813bd93e740b3d0e76c00092ab77fdf1626249d972f9b91d6fe475f35",
+   "test_source": "layouts/test/source/test_layouts_collect_apple_0_49.json",
+   "test_source_sha256": "982a31744cdec7c9eafb1f62cc1f2b97a2ebde8467d85f4ca7312fab90c8ab00"
+  }
+ ]
+}

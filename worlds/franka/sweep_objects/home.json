@@ -1,0 +1,23 @@
+{
+ "home_joints": [
+  [
+   1.41494,
+   -0.64297,
+   -1.73859,
+   -2.06057,
+   -1.93735,
+   3.77357,
+   1.04146
+  ],
+  [
+   1.76858,
+   -0.98136,
+   0.0829,
+   -2.80533,
+   -1.0467,
+   0.78764,
+   0.49363
+  ]
+ ],
+ "definition": "franka.home_for(task) code constant (HOME, or HOME_TASK for sweep_objects; same for every seed)"
+}

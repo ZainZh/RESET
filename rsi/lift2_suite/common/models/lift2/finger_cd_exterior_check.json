@@ -1,0 +1,38 @@
+{
+ "left_link17": {
+  "tag": "finger_cd",
+  "n_hulls": 12,
+  "n_exterior_pts": 14416,
+  "protrusion_p95_m": 0.004183704565570596,
+  "protrusion_max_m": 0.007412183440798793,
+  "frac_pts_protruding_gt_1mm": 0.3728496115427303,
+  "orig_surface_covered_0p5mm": 1.0
+ },
+ "left_link18": {
+  "tag": "finger_cd",
+  "n_hulls": 12,
+  "n_exterior_pts": 13734,
+  "protrusion_p95_m": 0.0038497993785644195,
+  "protrusion_max_m": 0.007483361788818031,
+  "frac_pts_protruding_gt_1mm": 0.4165574486675404,
+  "orig_surface_covered_0p5mm": 1.0
+ },
+ "right_link27": {
+  "tag": "finger_cd",
+  "n_hulls": 12,
+  "n_exterior_pts": 14513,
+  "protrusion_p95_m": 0.004104462672734298,
+  "protrusion_max_m": 0.007414976668672037,
+  "frac_pts_protruding_gt_1mm": 0.3747674498725281,
+  "orig_surface_covered_0p5mm": 1.0
+ },
+ "right_link28": {
+  "tag": "finger_cd",
+  "n_hulls": 12,
+  "n_exterior_pts": 13850,
+  "protrusion_p95_m": 0.0037809040647780565,
+  "protrusion_max_m": 0.007512948284125803,
+  "frac_pts_protruding_gt_1mm": 0.4111913357400722,
+  "orig_surface_covered_0p5mm": 1.0
+ }
+}

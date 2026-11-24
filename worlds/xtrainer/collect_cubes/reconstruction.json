@@ -1,0 +1,689 @@
+{
+  "task": "collect_cubes",
+  "episode": "demonstrations/new_camera/collect_cubes/real_zed_bimanual_raw/episode_20261101152250_620773",
+  "source_manifest_sha256": "b875f612b0b86b493b540b9a0cc1db94351fa32c92584db43642f1b44c043827",
+  "recorded_frames": 150,
+  "duration_sec": 37.712798833847046,
+  "camera": {
+    "serial": 38968158,
+    "intrinsic": [
+      [
+        354.97467041015625,
+        0.0,
+        330.2507629394531
+      ],
+      [
+        0.0,
+        354.97467041015625,
+        183.6127166748047
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "width": 640,
+    "height": 360,
+    "extrinsics_modified": false,
+    "additional_timing_offset_sec": 0,
+    "time_basis": "independent recorded camera and robot timestamps"
+  },
+  "calibration_sources": {
+    "left": {
+      "path": "configs/calibration/current_20261102/robot_camera_left_global.yaml",
+      "sha256": "b1ce799b8dc04b2a974ab8a7dfd211e5cc30eafee9b59e6c8f16e14fd5572cba",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    },
+    "right": {
+      "path": "configs/calibration/current_20261102/robot_camera_right_global.yaml",
+      "sha256": "792a05f66533492e331064f581c0ad8888f601a0b35362fc94a2b6b8a68af31d",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    }
+  },
+  "right_base_in_left": [
+    [
+      -0.9989135630324595,
+      0.03515618330406268,
+      -0.030589808193045704,
+      0.04172148215233479
+    ],
+    [
+      -0.03550574317523641,
+      -0.9993093715729773,
+      0.010960022262564267,
+      -1.059686017402441
+    ],
+    [
+      -0.03018336945025105,
+      0.012034228762694927,
+      0.9994719313451058,
+      -0.003491638018496057
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gripper_mount_yaw_deg": {
+    "left": 270,
+    "right": 90
+  },
+  "gripper_observation": "observations are placeholders; recorded opening commands drive bounded finger motor forces; estimated_gripper in the reference archive is unused",
+  "table": {
+    "normal": [
+      -0.04899538246156486,
+      7.308021874707915e-05,
+      0.9987990023807225
+    ],
+    "offset": -0.042317498221193975,
+    "center": [
+      0.0356202018364799,
+      -0.5030415409946762,
+      0.04415251308248239
+    ],
+    "half_size": [
+      0.3641375356538899,
+      0.3310180228767436,
+      0.018
+    ],
+    "rotation": [
+      [
+        -0.05076608689622804,
+        -0.9975080234858712,
+        -0.04899538246156486
+      ],
+      [
+        0.9987072812214653,
+        -0.05083071015154658,
+        7.308021874707915e-05
+      ],
+      [
+        -0.0025633681892262335,
+        -0.048928335213859996,
+        0.9987990023807225
+      ]
+    ],
+    "board_extent_note": "Back edge from recorded image; cropped near edge extended by 120mm.",
+    "depth_plane_rmse_mm": 1.982672232510565,
+    "normal_tilt_from_left_base_deg": 2.8083561198055054,
+    "inlier_points": 2878
+  },
+  "objects": [
+    {
+      "name": "bowl",
+      "asset": "024_bowl",
+      "segmentation_id": 1,
+      "box": [
+        284,
+        170,
+        391,
+        262
+      ],
+      "static": true,
+      "size_m": [
+        0.2,
+        0.2,
+        0.09
+      ],
+      "rgba": [
+        0.8,
+        0.74,
+        0.62,
+        1
+      ]
+    },
+    {
+      "name": "yellow_cube",
+      "asset": "cube",
+      "segmentation_id": 2,
+      "box": [
+        232,
+        213,
+        254,
+        238
+      ],
+      "static": false,
+      "rgba": [
+        1,
+        0.85,
+        0.02,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          243,
+          226
+        ]
+      ]
+    },
+    {
+      "name": "yellow_bar",
+      "asset": "cube",
+      "segmentation_id": 3,
+      "box": [
+        399,
+        178,
+        429,
+        205
+      ],
+      "static": false,
+      "rgba": [
+        1,
+        0.85,
+        0.02,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          413,
+          191
+        ]
+      ]
+    },
+    {
+      "name": "green_cube",
+      "asset": "cube",
+      "segmentation_id": 4,
+      "box": [
+        421,
+        206,
+        440,
+        231
+      ],
+      "static": false,
+      "rgba": [
+        0.1,
+        0.6,
+        0.15,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          430,
+          219
+        ]
+      ]
+    },
+    {
+      "name": "purple_cube",
+      "asset": "cube",
+      "segmentation_id": 5,
+      "box": [
+        397,
+        276,
+        422,
+        304
+      ],
+      "static": false,
+      "rgba": [
+        0.45,
+        0.1,
+        0.6,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          409,
+          290
+        ]
+      ]
+    },
+    {
+      "name": "blue_cube",
+      "asset": "cube",
+      "segmentation_id": 6,
+      "box": [
+        261,
+        300,
+        293,
+        335
+      ],
+      "static": false,
+      "rgba": [
+        0.15,
+        0.55,
+        0.85,
+        1
+      ],
+      "size_m": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "points": [
+        [
+          276,
+          318
+        ]
+      ]
+    }
+  ],
+  "replay_mode": "motor torque control and contact dynamics",
+  "contact_driven_grasp_validated": false,
+  "limitations": [
+    "Camera calibration and single-view geometry have not been independently certified.",
+    "Mass, inertia, friction, compliance and force limits are nominal assumptions.",
+    "Bounded motor approach and clearance corrections differ from recorded robot commands and are saved in motor_targets.npz.",
+    "Only initial RGB-D geometry initializes rigid objects; subsequent recorded object tracking is unused.",
+    "Human reset motions remain visible in the source comparison but no simulated human is added."
+  ],
+  "source_segmentation_objects": [
+    "bowl",
+    "yellow_cube",
+    "yellow_bar",
+    "green_cube",
+    "purple_cube",
+    "blue_cube"
+  ],
+  "excluded_source_segmentation_objects": [],
+  "scene_variant": {},
+  "geometry_note": "",
+  "physical_initial_object_poses": {
+    "bowl": [
+      [
+        0.9949318101325755,
+        -0.10055194272771417,
+        0.0,
+        0.045132743097635514
+      ],
+      [
+        0.10055194272771421,
+        0.9949318101325751,
+        0.0,
+        -0.5244288017800791
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999999,
+        0.09205706048489126
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "yellow_cube": [
+      [
+        0.4971792630796641,
+        0.8676478435192249,
+        0.0,
+        0.08315232512440983
+      ],
+      [
+        -0.8676478435192249,
+        0.49717926307966415,
+        0.0,
+        -0.3187701658400161
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999992,
+        0.0635011119399064
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "yellow_bar": [
+      [
+        -0.012777000936337468,
+        -0.9999183707918724,
+        0.0,
+        0.2033627892795605
+      ],
+      [
+        0.9999183707918725,
+        -0.012777000936337459,
+        0.0,
+        -0.6792812667572882
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999996,
+        0.0691592764724807
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "green_cube": [
+      [
+        0.8304818716710117,
+        0.5570456541665267,
+        0.0,
+        0.09778885833870125
+      ],
+      [
+        -0.5570456541665272,
+        0.8304818716710117,
+        0.0,
+        -0.7023927654787008
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999997,
+        0.06426357248127797
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "purple_cube": [
+      [
+        0.4215197430947685,
+        -0.906819224642553,
+        0.0,
+        -0.0500678251249461
+      ],
+      [
+        0.9068192246425529,
+        0.42151974309476836,
+        0.0,
+        -0.6471773120434872
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999998,
+        0.05696161987798323
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "blue_cube": [
+      [
+        0.9779992121351797,
+        -0.20860858338756555,
+        0.0,
+        -0.11732928253599137
+      ],
+      [
+        0.20860858338756552,
+        0.9779992121351797,
+        0.0,
+        -0.4235616421389579
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999991,
+        0.05354024533381179
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "reference_tracking_for_comparison_only": {
+    "bowl": {
+      "supported_frames": 148,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 18.420152290205674,
+      "unsupported_frames": [
+        22,
+        23
+      ],
+      "methods": {
+        "fixed_initial_registration": 150
+      }
+    },
+    "yellow_cube": {
+      "supported_frames": 150,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 2.1491923317295827,
+      "unsupported_frames": [],
+      "methods": {
+        "RGBD_registration": 150
+      }
+    },
+    "yellow_bar": {
+      "supported_frames": 82,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 4.181991430350278,
+      "unsupported_frames": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "methods": {
+        "RGBD_registration": 82,
+        "held_prediction": 5,
+        "last_supported_pose": 63
+      }
+    },
+    "green_cube": {
+      "supported_frames": 112,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 3.7064711766230936,
+      "unsupported_frames": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "methods": {
+        "RGBD_registration": 112,
+        "held_prediction": 2,
+        "last_supported_pose": 36
+      }
+    },
+    "purple_cube": {
+      "supported_frames": 149,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 2.5201059608105814,
+      "unsupported_frames": [
+        134
+      ],
+      "methods": {
+        "RGBD_registration": 149,
+        "held_prediction": 1
+      }
+    },
+    "blue_cube": {
+      "supported_frames": 150,
+      "frames": 150,
+      "median_depth_surface_distance_mm": 2.5440158670970003,
+      "unsupported_frames": [],
+      "methods": {
+        "RGBD_registration": 150
+      }
+    }
+  },
+  "motor_position_correction_m": {},
+  "grasp_geometry_settle_sec": 0.0,
+  "grasp_center_alignment_objects": [],
+  "geometry_approach_objects": [],
+  "motor_grasp_corrections": [],
+  "motor_window_corrections": [],
+  "brush_head_rolling_friction_m": 0.002,
+  "brush_bristle_contact_time_sec": 0.025,
+  "brush_bristle_contact_priority": 0,
+  "finger_force_limit_N": 8,
+  "fixture_placement_feedback": [],
+  "cup_release_clearance_m": 0.001,
+  "opening_stop_buffer_m": 0,
+  "finger_velocity_damping_Ns_m": 22,
+  "opening_velocity_limit_m_s": 0.05,
+  "grasp_head_height_offset_m": 0,
+  "rigid_object_pose_playback": false,
+  "grasp_constraints": false,
+  "gripper_color": "pale cream housing and front finger, dark rear finger, grey metal servo case",
+  "physical_parameters": "nominal assumptions, not measured hardware identification",
+  "container_collision_geometry": {
+    "bowl": {
+      "axis_xy_m": [
+        0.0003152025209097125,
+        0.00042408585563855474
+      ],
+      "profile_z_m": [
+        -0.04199999999999999,
+        -0.02749999999999999,
+        -0.01299999999999999,
+        0.0015000000000000083,
+        0.016000000000000007,
+        0.030500000000000006,
+        0.045
+      ],
+      "outer_radius_m": [
+        0.05813004737144299,
+        0.07054268416061515,
+        0.07842696027200058,
+        0.0838821475193616,
+        0.08788964386811637,
+        0.09081201632872545,
+        0.09949591902692323
+      ],
+      "wall_thickness_m": 0.003
+    }
+  }
+}

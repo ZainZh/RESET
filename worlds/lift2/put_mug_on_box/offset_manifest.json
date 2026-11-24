@@ -1,0 +1,414 @@
+{
+ "task": "put_mug_on_box",
+ "smooth_setup": "runs/lift2_suite_20261108/smooth_table_v1_rigid/put_mug_on_box",
+ "offsets_base_xy_m": {
+  "object_mug": [
+   0.16,
+   0.04
+  ]
+ },
+ "offsets_world_m": {
+  "object_mug": [
+   0.049752774250473586,
+   -0.15723624208479287,
+   0.0011939972503438125
+  ]
+ },
+ "source_layouts": "runs/lift2_suite_20261108/worlds/dev_layouts_put_mug_on_box_0_19.json",
+ "source_layouts_sha256": "33783538cdb4705906a5b02d8fa99c00cd09399e5069eedf6c866b38fa8e6bda",
+ "derived_layouts_sha256": "7c537c2521283f83a0630e45027f22ad155d68344ecac0f2f0fda451ec3e217e",
+ "checks": {
+  "min_pair_dist_m": 0.01610775044813817,
+  "layouts_with_penetration": 14
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.08056809904803042
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4878,
+     -0.1385
+    ],
+    "object_box": [
+     0.5793,
+     0.0837
+    ]
+   }
+  },
+  {
+   "layout": 1,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.10264069492649625
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4518,
+     -0.1476
+    ],
+    "object_box": [
+     0.6104,
+     0.0859
+    ]
+   }
+  },
+  {
+   "layout": 2,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.07348666039760487
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4664,
+     -0.1443
+    ],
+    "object_box": [
+     0.5866,
+     0.071
+    ]
+   }
+  },
+  {
+   "layout": 3,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.07945366258302639
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4658,
+     -0.1181
+    ],
+    "object_box": [
+     0.5687,
+     0.097
+    ]
+   }
+  },
+  {
+   "layout": 4,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.03169109230628969
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3",
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4999,
+     -0.0774
+    ],
+    "object_box": [
+     0.5694,
+     0.1015
+    ]
+   }
+  },
+  {
+   "layout": 5,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.04399924480202072
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4812,
+     -0.1128
+    ],
+    "object_box": [
+     0.6137,
+     0.0675
+    ]
+   }
+  },
+  {
+   "layout": 6,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.01610775044813817
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.455,
+     -0.0566
+    ],
+    "object_box": [
+     0.5884,
+     0.0679
+    ]
+   }
+  },
+  {
+   "layout": 7,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.08741578321620008
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4773,
+     -0.144
+    ],
+    "object_box": [
+     0.5626,
+     0.0956
+    ]
+   }
+  },
+  {
+   "layout": 8,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.09563856832977968
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4613,
+     -0.1333
+    ],
+    "object_box": [
+     0.564,
+     0.0999
+    ]
+   }
+  },
+  {
+   "layout": 9,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.05012338808097211
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4744,
+     -0.0948
+    ],
+    "object_box": [
+     0.5925,
+     0.0964
+    ]
+   }
+  },
+  {
+   "layout": 10,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.15022770615602304
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4055,
+     -0.1415
+    ],
+    "object_box": [
+     0.6013,
+     0.118
+    ]
+   }
+  },
+  {
+   "layout": 11,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.028676084979233074
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4583,
+     -0.0716
+    ],
+    "object_box": [
+     0.6024,
+     0.0762
+    ]
+   }
+  },
+  {
+   "layout": 12,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.142579096972618
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4677,
+     -0.1484
+    ],
+    "object_box": [
+     0.6069,
+     0.1207
+    ]
+   }
+  },
+  {
+   "layout": 13,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.0336602120198341
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4621,
+     -0.0659
+    ],
+    "object_box": [
+     0.6115,
+     0.0739
+    ]
+   }
+  },
+  {
+   "layout": 14,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.016156330924804396
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4539,
+     -0.0557
+    ],
+    "object_box": [
+     0.58,
+     0.0911
+    ]
+   }
+  },
+  {
+   "layout": 15,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.060681924623731676
+   },
+   "penetrations": [
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.414,
+     -0.0702
+    ],
+    "object_box": [
+     0.5914,
+     0.0698
+    ]
+   }
+  },
+  {
+   "layout": 16,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.08462832250470703
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3",
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4341,
+     -0.081
+    ],
+    "object_box": [
+     0.5969,
+     0.1208
+    ]
+   }
+  },
+  {
+   "layout": 17,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.11595292608966418
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3",
+    "table|mug_solid_bottom"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4103,
+     -0.0933
+    ],
+    "object_box": [
+     0.6126,
+     0.1016
+    ]
+   }
+  },
+  {
+   "layout": 18,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.09707654899184287
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_mug": [
+     0.4818,
+     -0.1532
+    ],
+    "object_box": [
+     0.5619,
+     0.093
+    ]
+   }
+  },
+  {
+   "layout": 19,
+   "pair_min_dist_m": {
+    "object_mug|object_box": 0.09483841247640534
+   },
+   "penetrations": [
+    "table|box_collision_0",
+    "table|box_collision_1",
+    "table|box_collision_3"
+   ],
+   "base_xy": {
+    "object_mug": [
+     0.4799,
+     -0.0991
+    ],
+    "object_box": [
+     0.6137,
+     0.1235
+    ]
+   }
+  }
+ ],
+ "note": "changed setup: needs its own matched source baseline; not an algorithmic gain"
+}

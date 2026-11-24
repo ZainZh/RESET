@@ -1,0 +1,398 @@
+{
+ "task": "collect_apple",
+ "smooth_setup": "runs/lift2_suite_20261108/smooth_table_v1_rigid/collect_apple",
+ "offsets_base_xy_m": {
+  "object_apple": [
+   0.3,
+   -0.06
+  ],
+  "object_bowl": [
+   0.08,
+   -0.04
+  ]
+ },
+ "offsets_world_m": {
+  "object_apple": [
+   -0.042796282698219446,
+   -0.3029130109969503,
+   -0.0034908388641606645
+  ],
+  "object_bowl": [
+   -0.035341299501883326,
+   -0.08213551330944582,
+   -0.0021794501398362115
+  ]
+ },
+ "source_layouts": "runs/lift2_suite_20261108/smooth_table_v1_rigid/dev_layouts_collect_apple_0_19.json",
+ "source_layouts_sha256": "a25ac444ac4702dfb2560ec1ca0bb6b891715acbf9db8059f33a9cccc74404e9",
+ "derived_layouts_sha256": "a39223ac92da9a97ec1eb918b41cba1edaf7fb12356f53f9596562b8c7b39c72",
+ "checks": {
+  "min_pair_dist_m": 0.026423912573905972,
+  "layouts_with_penetration": 10
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.15228949756409416
+   },
+   "penetrations": [
+    "table|bowl_solid_bottom"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5365,
+     -0.2202
+    ],
+    "object_bowl": [
+     0.4889,
+     0.0519
+    ]
+   }
+  },
+  {
+   "layout": 1,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.03187415695617707
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5573,
+     -0.127
+    ],
+    "object_bowl": [
+     0.5333,
+     0.0205
+    ]
+   }
+  },
+  {
+   "layout": 2,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.06297062932472064
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5121,
+     -0.1876
+    ],
+    "object_bowl": [
+     0.4892,
+     -0.0089
+    ]
+   }
+  },
+  {
+   "layout": 3,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.1224399617118791
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5612,
+     -0.2008
+    ],
+    "object_bowl": [
+     0.4719,
+     0.0275
+    ]
+   }
+  },
+  {
+   "layout": 4,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.07045396577415014
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5983,
+     -0.1576
+    ],
+    "object_bowl": [
+     0.4789,
+     -0.0121
+    ]
+   }
+  },
+  {
+   "layout": 5,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.03665674988257467
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.493,
+     -0.121
+    ],
+    "object_bowl": [
+     0.5097,
+     0.0316
+    ]
+   }
+  },
+  {
+   "layout": 6,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.026423912573905972
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5277,
+     -0.1454
+    ],
+    "object_bowl": [
+     0.5133,
+     -0.0032
+    ]
+   }
+  },
+  {
+   "layout": 7,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.090718629748816
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5821,
+     -0.1775
+    ],
+    "object_bowl": [
+     0.5458,
+     0.0296
+    ]
+   }
+  },
+  {
+   "layout": 8,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.10669499008860939
+   },
+   "penetrations": [
+    "table|apple_collision",
+    "table|bowl_solid_bottom"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5961,
+     -0.1529
+    ],
+    "object_bowl": [
+     0.4746,
+     0.0403
+    ]
+   }
+  },
+  {
+   "layout": 9,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.10704600072083081
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.595,
+     -0.1884
+    ],
+    "object_bowl": [
+     0.516,
+     0.026
+    ]
+   }
+  },
+  {
+   "layout": 10,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.11718216042458651
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5811,
+     -0.223
+    ],
+    "object_bowl": [
+     0.4852,
+     -0.0037
+    ]
+   }
+  },
+  {
+   "layout": 11,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.10444846767768978
+   },
+   "penetrations": [
+    "table|apple_collision",
+    "table|bowl_solid_bottom"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5251,
+     -0.1682
+    ],
+    "object_bowl": [
+     0.4748,
+     0.0513
+    ]
+   }
+  },
+  {
+   "layout": 12,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.10334827890934645
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5187,
+     -0.2221
+    ],
+    "object_bowl": [
+     0.5256,
+     0.0023
+    ]
+   }
+  },
+  {
+   "layout": 13,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.14276549300717395
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5944,
+     -0.2299
+    ],
+    "object_bowl": [
+     0.4919,
+     0.016
+    ]
+   }
+  },
+  {
+   "layout": 14,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.08875891812957043
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5733,
+     -0.1738
+    ],
+    "object_bowl": [
+     0.5329,
+     0.0298
+    ]
+   }
+  },
+  {
+   "layout": 15,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.05589454536573235
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5893,
+     -0.1404
+    ],
+    "object_bowl": [
+     0.4898,
+     0.0018
+    ]
+   }
+  },
+  {
+   "layout": 16,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.0597414951832928
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5818,
+     -0.1498
+    ],
+    "object_bowl": [
+     0.5371,
+     0.0226
+    ]
+   }
+  },
+  {
+   "layout": 17,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.14733462017547316
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.6065,
+     -0.2189
+    ],
+    "object_bowl": [
+     0.5104,
+     0.035
+    ]
+   }
+  },
+  {
+   "layout": 18,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.04801577535377638
+   },
+   "penetrations": [
+    "table|apple_collision"
+   ],
+   "base_xy": {
+    "object_apple": [
+     0.5677,
+     -0.1212
+    ],
+    "object_bowl": [
+     0.4772,
+     0.0159
+    ]
+   }
+  },
+  {
+   "layout": 19,
+   "pair_min_dist_m": {
+    "object_apple|object_bowl": 0.056913197106096325
+   },
+   "penetrations": [],
+   "base_xy": {
+    "object_apple": [
+     0.5149,
+     -0.1822
+    ],
+    "object_bowl": [
+     0.5219,
+     -0.0075
+    ]
+   }
+  }
+ ],
+ "note": "changed setup: needs its own matched source baseline; not an algorithmic gain"
+}

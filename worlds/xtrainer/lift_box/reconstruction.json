@@ -1,0 +1,280 @@
+{
+  "task": "lift_box",
+  "episode": "demonstrations/new_camera/lift_box/real_zed_bimanual_raw/episode_20261101152035_019495",
+  "source_manifest_sha256": "46fd2dcf90b3ca77c04c6341a74c88b425f97bfda430e06c97df1edd3a6bea99",
+  "recorded_frames": 42,
+  "duration_sec": 9.972940921783447,
+  "camera": {
+    "serial": 38968158,
+    "intrinsic": [
+      [
+        355.122802734375,
+        0.0,
+        330.2503662109375
+      ],
+      [
+        0.0,
+        355.122802734375,
+        183.61363220214844
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "width": 640,
+    "height": 360,
+    "extrinsics_modified": false,
+    "additional_timing_offset_sec": 0,
+    "time_basis": "independent recorded camera and robot timestamps"
+  },
+  "calibration_sources": {
+    "left": {
+      "path": "configs/calibration/current_20261102/robot_camera_left_global.yaml",
+      "sha256": "b1ce799b8dc04b2a974ab8a7dfd211e5cc30eafee9b59e6c8f16e14fd5572cba",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    },
+    "right": {
+      "path": "configs/calibration/current_20261102/robot_camera_right_global.yaml",
+      "sha256": "792a05f66533492e331064f581c0ad8888f601a0b35362fc94a2b6b8a68af31d",
+      "camera_serial": 38968158,
+      "mean_translation_error_m": 0.0066654123657503275,
+      "max_translation_error_m": null,
+      "mean_rotation_error_deg": null
+    }
+  },
+  "right_base_in_left": [
+    [
+      -0.9989135630324595,
+      0.03515618330406268,
+      -0.030589808193045704,
+      0.04172148215233479
+    ],
+    [
+      -0.03550574317523641,
+      -0.9993093715729773,
+      0.010960022262564267,
+      -1.059686017402441
+    ],
+    [
+      -0.03018336945025105,
+      0.012034228762694927,
+      0.9994719313451058,
+      -0.003491638018496057
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "gripper_mount_yaw_deg": {
+    "left": 270,
+    "right": 90
+  },
+  "gripper_observation": "observations are placeholders; recorded opening commands drive bounded finger motor forces; estimated_gripper in the reference archive is unused",
+  "table": {
+    "normal": [
+      -0.038061754297234164,
+      -0.008159586362733506,
+      0.9992420747797833
+    ],
+    "offset": -0.04590663476767501,
+    "center": [
+      0.03903123644872575,
+      -0.5091225200273665,
+      0.04327079895775682
+    ],
+    "half_size": [
+      0.36686856679796176,
+      0.3343884087107181,
+      0.018
+    ],
+    "rotation": [
+      [
+        -0.0638275105598691,
+        -0.9972348528584162,
+        -0.038061754297234164
+      ],
+      [
+        0.9979445656444996,
+        -0.0635615060472943,
+        -0.008159586362733506
+      ],
+      [
+        0.005717761479891767,
+        -0.03850432694455255,
+        0.9992420747797833
+      ]
+    ],
+    "board_extent_note": "Back edge from recorded image; cropped near edge extended by 120mm.",
+    "depth_plane_rmse_mm": 1.9550929080441024,
+    "normal_tilt_from_left_base_deg": 2.230890445989024,
+    "inlier_points": 2719
+  },
+  "objects": [
+    {
+      "name": "carton",
+      "asset": "cube",
+      "segmentation_id": 1,
+      "box": [
+        230,
+        260,
+        328,
+        328
+      ],
+      "static": false,
+      "rgba": [
+        0.95,
+        0.8,
+        0.25,
+        1
+      ],
+      "size_m": [
+        0.065,
+        0.1,
+        0.065
+      ],
+      "points": [
+        [
+          270,
+          295
+        ]
+      ]
+    },
+    {
+      "name": "box",
+      "asset": "drawer_box",
+      "segmentation_id": 2,
+      "box": [
+        346,
+        129,
+        464,
+        226
+      ],
+      "static": true,
+      "initial_yaw_deg": 0,
+      "size_m": [
+        0.17,
+        0.216,
+        0.1
+      ]
+    }
+  ],
+  "replay_mode": "motor torque control and contact dynamics",
+  "contact_driven_grasp_validated": false,
+  "limitations": [
+    "Camera calibration and single-view geometry have not been independently certified.",
+    "Mass, inertia, friction, compliance and force limits are nominal assumptions.",
+    "Bounded motor approach and clearance corrections differ from recorded robot commands and are saved in motor_targets.npz.",
+    "Only initial RGB-D geometry initializes rigid objects; subsequent recorded object tracking is unused.",
+    "Human reset motions remain visible in the source comparison but no simulated human is added."
+  ],
+  "source_segmentation_objects": [
+    "carton",
+    "box"
+  ],
+  "excluded_source_segmentation_objects": [],
+  "scene_variant": {},
+  "geometry_note": "",
+  "physical_initial_object_poses": {
+    "carton": [
+      [
+        -0.9955718900268999,
+        0.09400325413657219,
+        0.0,
+        -0.09301118801483593
+      ],
+      [
+        -0.0940032541365722,
+        -0.9955718900268998,
+        0.0,
+        -0.42691449206019627
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999994,
+        0.07284026243430304
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "box": [
+      [
+        0.9935486404965291,
+        -0.11340678536798877,
+        0.0,
+        0.2040197054336366
+      ],
+      [
+        0.11340678536798869,
+        0.9935486404965291,
+        0.0,
+        -0.6484380000687966
+      ],
+      [
+        0.0,
+        0.0,
+        0.9999999999999999,
+        0.10208034243964398
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "reference_tracking_for_comparison_only": {
+    "carton": {
+      "supported_frames": 42,
+      "frames": 42,
+      "median_depth_surface_distance_mm": 6.651920189449276,
+      "unsupported_frames": [],
+      "methods": {
+        "RGBD_registration": 42
+      }
+    },
+    "box": {
+      "supported_frames": 42,
+      "frames": 42,
+      "median_depth_surface_distance_mm": 8.294709121098514,
+      "unsupported_frames": [],
+      "methods": {
+        "fixed_initial_registration": 42
+      }
+    }
+  },
+  "motor_position_correction_m": {},
+  "grasp_geometry_settle_sec": 0.0,
+  "grasp_center_alignment_objects": [],
+  "geometry_approach_objects": [],
+  "motor_grasp_corrections": [],
+  "motor_window_corrections": [],
+  "brush_head_rolling_friction_m": 0.002,
+  "brush_bristle_contact_time_sec": 0.025,
+  "brush_bristle_contact_priority": 0,
+  "finger_force_limit_N": 8,
+  "fixture_placement_feedback": [],
+  "cup_release_clearance_m": 0.001,
+  "opening_stop_buffer_m": 0,
+  "finger_velocity_damping_Ns_m": 22,
+  "opening_velocity_limit_m_s": 0.05,
+  "grasp_head_height_offset_m": 0,
+  "rigid_object_pose_playback": false,
+  "grasp_constraints": false,
+  "gripper_color": "pale cream housing and front finger, dark rear finger, grey metal servo case",
+  "physical_parameters": "nominal assumptions, not measured hardware identification",
+  "container_collision_geometry": {}
+}

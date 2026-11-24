@@ -1,0 +1,303 @@
+{
+ "summary": {
+  "max_robot_obj_pen_mm": 0.0,
+  "max_obj_obj_pen_mm": 0.0,
+  "max_obj_table_pen_mm": 1.59,
+  "fully_visible_object_carton": 20,
+  "min_margin_px_object_carton": 21.0,
+  "min_vertex_frac_in_frame_object_carton": 1.0,
+  "fully_visible_object_box": 20,
+  "min_margin_px_object_box": 36.8,
+  "min_vertex_frac_in_frame_object_box": 1.0
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.15,
+   "pairs": [
+    "world|object_box:0.15",
+    "world|object_box:0.15",
+    "world|object_box:0.15"
+   ],
+   "vis_object_carton": 56.3,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 50.3,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 1,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.12,
+   "pairs": [
+    "world|object_box:0.12",
+    "world|object_box:0.12",
+    "world|object_box:0.12"
+   ],
+   "vis_object_carton": 102.3,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 61.6,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 2,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.3,
+   "pairs": [
+    "world|object_carton:0.30"
+   ],
+   "vis_object_carton": 33.7,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 45.4,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 3,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_carton": 60.7,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 44.9,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 4,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.01,
+   "pairs": [
+    "world|object_box:1.01",
+    "world|object_box:1.01",
+    "world|object_box:1.01",
+    "world|object_box:1.01",
+    "world|object_box:0.75",
+    "world|object_box:0.75",
+    "world|object_box:1.01",
+    "world|object_box:1.01"
+   ],
+   "vis_object_carton": 21.3,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 63.7,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 5,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_carton": 115.4,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 36.8,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 6,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.54,
+   "pairs": [
+    "world|object_carton:0.54"
+   ],
+   "vis_object_carton": 73.4,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 43.4,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 7,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.23,
+   "pairs": [
+    "world|object_carton:0.23"
+   ],
+   "vis_object_carton": 89.5,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 61.3,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 8,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.35,
+   "pairs": [
+    "world|object_carton:0.35",
+    "world|object_box:0.34",
+    "world|object_box:0.34",
+    "world|object_box:0.34"
+   ],
+   "vis_object_carton": 100.5,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 53.8,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 9,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.61,
+   "pairs": [
+    "world|object_carton:0.61"
+   ],
+   "vis_object_carton": 88.3,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 58.0,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 10,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.59,
+   "pairs": [
+    "world|object_carton:1.59",
+    "world|object_box:1.16",
+    "world|object_box:1.16",
+    "world|object_box:1.16"
+   ],
+   "vis_object_carton": 52.9,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 75.5,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 11,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.61,
+   "pairs": [
+    "world|object_box:0.61",
+    "world|object_box:0.61",
+    "world|object_box:0.61",
+    "world|object_box:0.61",
+    "world|object_box:0.61",
+    "world|object_box:0.61",
+    "world|object_box:0.36",
+    "world|object_box:0.36"
+   ],
+   "vis_object_carton": 88.4,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 60.7,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 12,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.66,
+   "pairs": [
+    "world|object_carton:0.66"
+   ],
+   "vis_object_carton": 79.9,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 49.4,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 13,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.24,
+   "pairs": [
+    "world|object_box:1.24",
+    "world|object_box:1.24",
+    "world|object_box:1.24"
+   ],
+   "vis_object_carton": 110.8,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 57.5,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 14,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.33,
+   "pairs": [
+    "world|object_carton:0.33"
+   ],
+   "vis_object_carton": 103.2,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 48.3,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 15,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.28,
+   "pairs": [
+    "world|object_carton:1.28"
+   ],
+   "vis_object_carton": 43.2,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 39.5,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 16,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_carton": 21.0,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 58.3,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 17,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_carton": 58.1,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 40.5,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 18,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.68,
+   "pairs": [
+    "world|object_box:0.68",
+    "world|object_box:0.68",
+    "world|object_box:0.68",
+    "world|object_box:0.68",
+    "world|object_box:0.68",
+    "world|object_box:0.68",
+    "world|object_box:0.50",
+    "world|object_box:0.50"
+   ],
+   "vis_object_carton": 84.1,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 71.3,
+   "visfrac_object_box": 1.0
+  },
+  {
+   "layout": 19,
+   "robot_obj_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.97,
+   "pairs": [
+    "world|object_box:0.97",
+    "world|object_box:0.97",
+    "world|object_box:0.97",
+    "world|object_box:0.25"
+   ],
+   "vis_object_carton": 125.1,
+   "visfrac_object_carton": 1.0,
+   "vis_object_box": 67.8,
+   "visfrac_object_box": 1.0
+  }
+ ]
+}

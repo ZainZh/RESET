@@ -1,0 +1,5 @@
+{
+  "input": "initial geometry and recorded robot commands only; no future object observations",
+  "settle_sec": 0.0,
+  "settled_object_poses": {}
+}

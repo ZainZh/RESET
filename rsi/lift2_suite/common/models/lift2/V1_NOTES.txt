@@ -1,0 +1,5 @@
+pinion/follower joints: armature=damping=frictionloss=0; master slide armature 0.001 damping 5 Ns/m
+left_link17: whole-mesh collision replaced by 12 CoACD hulls
+left_link18: whole-mesh collision replaced by 12 CoACD hulls
+right_link27: whole-mesh collision replaced by 12 CoACD hulls
+right_link28: whole-mesh collision replaced by 12 CoACD hulls

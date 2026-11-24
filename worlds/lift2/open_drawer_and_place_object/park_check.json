@@ -1,0 +1,402 @@
+{
+ "task": "open_drawer_and_place_object",
+ "setup": "worlds/lift2/open_drawer_and_place_object",
+ "layouts": "runs/lift2_suite_20261108/worlds/dev_layouts_open_drawer_and_place_object_0_19.json",
+ "home": [
+  [
+   -0.13171937595018327,
+   1.4751194903683458,
+   1.4302842464035965,
+   -1.525961363611605,
+   -1.898671815707138e-07,
+   -0.13171969604273956
+  ],
+  [
+   0.11702942003953033,
+   1.4734585893696823,
+   1.4287943739610152,
+   -1.5261323710007288,
+   1.8176988163744905e-07,
+   0.11702971672306405
+  ]
+ ],
+ "summary": {
+  "robot-support": {
+   "layouts_with_penetration": 0,
+   "total_contacts": 0,
+   "deepest_m": 0.0
+  },
+  "robot-object": {
+   "layouts_with_penetration": 0,
+   "total_contacts": 0,
+   "deepest_m": 0.0
+  },
+  "robot-robot": {
+   "layouts_with_penetration": 0,
+   "total_contacts": 0,
+   "deepest_m": 0.0
+  }
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 1,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 2,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 3,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 4,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 5,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 6,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 7,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 8,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 9,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 10,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 11,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 12,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 13,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 14,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 15,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 16,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 17,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 18,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  },
+  {
+   "layout": 19,
+   "robot-support": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-object": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   },
+   "robot-robot": {
+    "n": 0,
+    "min_dist_m": 0.0,
+    "pairs": []
+   }
+  }
+ ]
+}

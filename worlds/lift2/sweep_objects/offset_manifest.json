@@ -1,0 +1,24 @@
+{
+ "task": "sweep_objects",
+ "source_layouts_sha256": "ae17336462e3ade38f0477b958db7b393c97147f54479b0273a34f08765fa34d",
+ "derived_layouts_sha256": "1b3e8e086a678ccc78b94253fe76a28080a612d8d26bc2d1c4b0396d5348293c",
+ "yaw_deg_about_table_normal": -80,
+ "table_normal": [
+  -0.0483807759672128,
+  -0.005009444262726367,
+  0.998816402541022
+ ],
+ "left_tilt_deg_about_canonical_closing_axis": -35.0,
+ "pivot_world": [
+  -0.021063151170000002,
+  -0.37083362659999985,
+  0.04228531431922862
+ ],
+ "target_world": [
+  0.12,
+  -0.485,
+  0.04854555855816234
+ ],
+ "rule": "G(p) = Rn(psi) (p - pivot) + target, Rn = rotation by psi about the TABLE NORMAL n (maps the table plane onto itself, so every object's\n   height and tilt relative to the table are exactly the source ones); pivot = mean dustpan xy over the 20 accepted DEV layouts (on its\n   own height); target = pivot_target_xy with z on the same table-plane height. Applied to every object pose of every DEV layout\n   (positions and orientations) -> the whole per-seed scene (cube/brush/dustpan relative poses and perturbations) is rigidly unchanged.",
+ "home": "left (dustpan arm) = source canonical home TCP pose mapped by the same rigid group transform G as the objects (contact-home geometry relative to the dustpan preserved), solved by IK; right = generic declared ready pose (base (0.30,-0.22,0.12), approach down)."
+}

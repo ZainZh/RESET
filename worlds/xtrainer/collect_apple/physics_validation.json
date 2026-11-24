@@ -1,0 +1,123 @@
+{
+  "task": "collect_apple",
+  "episode": "demonstrations/new_camera/grasp_apple/real_zed_bimanual_raw/episode_20261101151054_620748",
+  "scene_variant": {},
+  "duration_sec": 6.619589567184448,
+  "steps": 6621,
+  "timestep_sec": 0.001,
+  "state_writes_after_initialization": 0,
+  "object_external_forces": false,
+  "grasp_welds": 0,
+  "object_mocap_bodies": 0,
+  "force_limit_per_finger_N": 8,
+  "friction_coefficient": 0.65,
+  "mass_and_friction_measured": false,
+  "maximum_penetration_mm": {
+    "robot_object": 0.15414587819829811,
+    "object_object": 1.0531335113794575,
+    "robot_table": 0.0,
+    "robot_self": 0.0,
+    "robot_robot": 0.0,
+    "object_table": 0.13805745847443618,
+    "compliant_bristles": 0.0
+  },
+  "maximum_joint_tracking_error_rad": 0.0015627369987085693,
+  "objects": {
+    "object_apple": {
+      "peak_lift_mm": 218.217305053305,
+      "bilateral_contact_sec": {
+        "left": 3.157,
+        "right": 0.0
+      },
+      "bilateral_force_contact_sec": {
+        "left": 3.157,
+        "right": 0.0
+      },
+      "peak_summed_normal_contact_force_N": {
+        "left": 27.69288519729356,
+        "right": 0.0
+      },
+      "final_position_m": [
+        0.09728129683310881,
+        -0.5422978023340953,
+        0.08756863490204338
+      ]
+    },
+    "object_bowl": {
+      "peak_lift_mm": 0.0,
+      "bilateral_contact_sec": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "bilateral_force_contact_sec": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "peak_summed_normal_contact_force_N": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "final_position_m": [
+        0.08956856570733655,
+        -0.5177778235147906,
+        0.09232624360683425
+      ]
+    }
+  },
+  "simulation_finite": true,
+  "maximum_workspace_displacement_m": 0.30462885434669607,
+  "maximum_joint_limit_violation": 2.1687630171557702e-05,
+  "workspace_bounded": true,
+  "soft_bristle_penetration_is_compliance": true,
+  "worst_contacts": {
+    "robot_object": {
+      "time_sec": 1.8879999999999029,
+      "geoms": [
+        "left_J1_8_03_00_collision",
+        "apple_collision"
+      ]
+    },
+    "object_object": {
+      "time_sec": 5.1830000000000656,
+      "geoms": [
+        "apple_collision",
+        "bowl_solid_wall_0_2"
+      ]
+    },
+    "robot_table": null,
+    "robot_self": null,
+    "robot_robot": null,
+    "object_table": {
+      "time_sec": 5.270000000000095,
+      "geoms": [
+        "table",
+        "bowl_solid_bottom"
+      ]
+    },
+    "compliant_bristles": null
+  },
+  "joint_limit_excursions": {
+    "left_gripper2": {
+      "maximum": 2.1687630171557702e-05,
+      "unit": "m",
+      "time_sec": 2.9019999999997914,
+      "value": -2.1687630171557702e-05,
+      "range": [
+        0.0,
+        0.04
+      ],
+      "side": "lower"
+    }
+  },
+  "solver_checks_passed": true,
+  "uses_privileged_simulator_geometry_feedback": false,
+  "task_outcome": {
+    "checks": {
+      "apple_grasped": true,
+      "apple_inside_bowl": true
+    },
+    "measurements": {},
+    "passed": true,
+    "scope": "Nominal reconstructed scene only; finite simulation and grasp lift are not complete task success or sim-to-real validation."
+  }
+}

@@ -1,0 +1,435 @@
+<mujoco model="sweep_objects_franka">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" integrator="implicitfast" ccd_tolerance="1e-9" ccd_iterations="100" iterations="120" tolerance="1e-9" cone="elliptic" impratio="5" gravity="0.4746154123 0.04914264817 -9.798388909">
+    <flag nativeccd="enable" multiccd="enable" />
+  </option>
+  <asset>
+    <mesh name="J1_6" file="../../../robots/xtrainer/meshes/J1_6.obj" />
+    <mesh name="J1_7_part_03" file="../../../robots/xtrainer/collision_meshes/J1_7_part_03.obj" />
+    <mesh name="J1_8_part_03" file="../../../robots/xtrainer/collision_meshes/J1_8_part_03.obj" />
+    <mesh name="orange_cube_part_0" file="../../xtrainer/sweep_objects/meshes/orange_cube_part_0.obj" />
+    <mesh name="dustpan_part_0" file="../../xtrainer/sweep_objects/meshes/dustpan_part_0.obj" />
+    <mesh name="dustpan_part_1" file="../../xtrainer/sweep_objects/meshes/dustpan_part_1.obj" />
+    <mesh name="dustpan_part_2" file="../../xtrainer/sweep_objects/meshes/dustpan_part_2.obj" />
+    <mesh name="dustpan_part_3" file="../../xtrainer/sweep_objects/meshes/dustpan_part_3.obj" />
+    <mesh name="dustpan_part_4" file="../../xtrainer/sweep_objects/meshes/dustpan_part_4.obj" />
+    <mesh name="dustpan_part_5" file="../../xtrainer/sweep_objects/meshes/dustpan_part_5.obj" />
+    <mesh name="dustpan_part_6" file="../../xtrainer/sweep_objects/meshes/dustpan_part_6.obj" />
+    <mesh name="dustpan_part_7" file="../../xtrainer/sweep_objects/meshes/dustpan_part_7.obj" />
+    <mesh name="dustpan_part_8" file="../../xtrainer/sweep_objects/meshes/dustpan_part_8.obj" />
+    <mesh name="dustpan_part_9" file="../../xtrainer/sweep_objects/meshes/dustpan_part_9.obj" />
+    <mesh name="dustpan_part_10" file="../../xtrainer/sweep_objects/meshes/dustpan_part_10.obj" />
+    <mesh name="dustpan_part_11" file="../../xtrainer/sweep_objects/meshes/dustpan_part_11.obj" />
+    <mesh name="dustpan_part_12" file="../../xtrainer/sweep_objects/meshes/dustpan_part_12.obj" />
+    <mesh name="dustpan_part_13" file="../../xtrainer/sweep_objects/meshes/dustpan_part_13.obj" />
+    <mesh name="dustpan_part_14" file="../../xtrainer/sweep_objects/meshes/dustpan_part_14.obj" />
+    <mesh name="dustpan_part_15" file="../../xtrainer/sweep_objects/meshes/dustpan_part_15.obj" />
+    <mesh name="dustpan_part_16" file="../../xtrainer/sweep_objects/meshes/dustpan_part_16.obj" />
+    <mesh name="dustpan_part_17" file="../../xtrainer/sweep_objects/meshes/dustpan_part_17.obj" />
+    <mesh name="dustpan_part_18" file="../../xtrainer/sweep_objects/meshes/dustpan_part_18.obj" />
+    <mesh name="dustpan_part_19" file="../../xtrainer/sweep_objects/meshes/dustpan_part_19.obj" />
+    <mesh name="dustpan_part_20" file="../../xtrainer/sweep_objects/meshes/dustpan_part_20.obj" />
+    <mesh name="dustpan_part_21" file="../../xtrainer/sweep_objects/meshes/dustpan_part_21.obj" />
+    <mesh name="dustpan_part_22" file="../../xtrainer/sweep_objects/meshes/dustpan_part_22.obj" />
+    <mesh name="dustpan_part_23" file="../../xtrainer/sweep_objects/meshes/dustpan_part_23.obj" />
+    <mesh name="dustpan_part_24" file="../../xtrainer/sweep_objects/meshes/dustpan_part_24.obj" />
+    <mesh name="dustpan_part_25" file="../../xtrainer/sweep_objects/meshes/dustpan_part_25.obj" />
+    <mesh name="dustpan_part_26" file="../../xtrainer/sweep_objects/meshes/dustpan_part_26.obj" />
+    <mesh name="dustpan_part_27" file="../../xtrainer/sweep_objects/meshes/dustpan_part_27.obj" />
+    <mesh name="dustpan_part_28" file="../../xtrainer/sweep_objects/meshes/dustpan_part_28.obj" />
+    <mesh name="dustpan_part_29" file="../../xtrainer/sweep_objects/meshes/dustpan_part_29.obj" />
+    <mesh name="dustpan_part_30" file="../../xtrainer/sweep_objects/meshes/dustpan_part_30.obj" />
+    <mesh name="dustpan_part_31" file="../../xtrainer/sweep_objects/meshes/dustpan_part_31.obj" />
+    <mesh name="dustpan_part_32" file="../../xtrainer/sweep_objects/meshes/dustpan_part_32.obj" />
+    <mesh name="dustpan_part_33" file="../../xtrainer/sweep_objects/meshes/dustpan_part_33.obj" />
+    <mesh name="dustpan_part_34" file="../../xtrainer/sweep_objects/meshes/dustpan_part_34.obj" />
+    <mesh name="dustpan_part_35" file="../../xtrainer/sweep_objects/meshes/dustpan_part_35.obj" />
+    <mesh name="dustpan_part_36" file="../../xtrainer/sweep_objects/meshes/dustpan_part_36.obj" />
+    <mesh name="dustpan_part_37" file="../../xtrainer/sweep_objects/meshes/dustpan_part_37.obj" />
+    <mesh name="dustpan_part_38" file="../../xtrainer/sweep_objects/meshes/dustpan_part_38.obj" />
+    <mesh name="dustpan_part_39" file="../../xtrainer/sweep_objects/meshes/dustpan_part_39.obj" />
+    <mesh name="dustpan_part_40" file="../../xtrainer/sweep_objects/meshes/dustpan_part_40.obj" />
+    <mesh name="dustpan_part_41" file="../../xtrainer/sweep_objects/meshes/dustpan_part_41.obj" />
+    <mesh name="dustpan_part_42" file="../../xtrainer/sweep_objects/meshes/dustpan_part_42.obj" />
+    <mesh name="dustpan_part_43" file="../../xtrainer/sweep_objects/meshes/dustpan_part_43.obj" />
+    <mesh name="dustpan_part_44" file="../../xtrainer/sweep_objects/meshes/dustpan_part_44.obj" />
+    <mesh name="dustpan_part_45" file="../../xtrainer/sweep_objects/meshes/dustpan_part_45.obj" />
+    <mesh name="dustpan_part_46" file="../../xtrainer/sweep_objects/meshes/dustpan_part_46.obj" />
+    <mesh name="dustpan_part_47" file="../../xtrainer/sweep_objects/meshes/dustpan_part_47.obj" />
+    <mesh name="dustpan_part_48" file="../../xtrainer/sweep_objects/meshes/dustpan_part_48.obj" />
+    <mesh name="dustpan_part_49" file="../../xtrainer/sweep_objects/meshes/dustpan_part_49.obj" />
+    <mesh name="dustpan_part_50" file="../../xtrainer/sweep_objects/meshes/dustpan_part_50.obj" />
+    <mesh name="dustpan_part_51" file="../../xtrainer/sweep_objects/meshes/dustpan_part_51.obj" />
+    <mesh name="dustpan_part_52" file="../../xtrainer/sweep_objects/meshes/dustpan_part_52.obj" />
+    <mesh name="dustpan_part_53" file="../../xtrainer/sweep_objects/meshes/dustpan_part_53.obj" />
+    <mesh name="dustpan_part_54" file="../../xtrainer/sweep_objects/meshes/dustpan_part_54.obj" />
+    <mesh name="dustpan_part_55" file="../../xtrainer/sweep_objects/meshes/dustpan_part_55.obj" />
+    <mesh name="dustpan_part_56" file="../../xtrainer/sweep_objects/meshes/dustpan_part_56.obj" />
+    <mesh name="dustpan_part_57" file="../../xtrainer/sweep_objects/meshes/dustpan_part_57.obj" />
+    <mesh name="dustpan_part_58" file="../../xtrainer/sweep_objects/meshes/dustpan_part_58.obj" />
+    <mesh name="dustpan_part_59" file="../../xtrainer/sweep_objects/meshes/dustpan_part_59.obj" />
+    <mesh name="dustpan_part_60" file="../../xtrainer/sweep_objects/meshes/dustpan_part_60.obj" />
+    <mesh name="base_link" file="../../../rsi/franka_suite/model/meshes/base_link.STL" />
+    <mesh name="Torso_Link" file="../../../rsi/franka_suite/model/meshes/Torso_Link.STL" />
+    <mesh name="link0" file="../../../rsi/franka_suite/model/meshes/link0.stl" />
+    <mesh name="link1" file="../../../rsi/franka_suite/model/meshes/link1.stl" />
+    <mesh name="link2" file="../../../rsi/franka_suite/model/meshes/link2.stl" />
+    <mesh name="link3" file="../../../rsi/franka_suite/model/meshes/link3.stl" />
+    <mesh name="link4" file="../../../rsi/franka_suite/model/meshes/link4.stl" />
+    <mesh name="link5" file="../../../rsi/franka_suite/model/meshes/link5.stl" />
+    <mesh name="link6" file="../../../rsi/franka_suite/model/meshes/link6.stl" />
+    <mesh name="link7" file="../../../rsi/franka_suite/model/meshes/link7.stl" />
+    <mesh name="hand" file="../../../rsi/franka_suite/model/meshes/hand.stl" />
+    <mesh name="umi_finger" file="../../../rsi/franka_suite/model/meshes/umi_finger.stl" />
+  </asset>
+  <visual>
+    <global offwidth="1920" offheight="1080" />
+    <headlight ambient=".3 .3 .3" diffuse=".5 .5 .5" specular=".1 .1 .1" />
+    <map znear=".01" />
+  </visual>
+  <worldbody>
+    <light pos="0 -.5 1.8" dir="0 0 -1" diffuse=".3 .3 .3" castshadow="true" />
+    <camera name="overview" pos="-1.45 -1.6 1.2" xyaxes=".60 -.80 0 .39 .29 .875" />
+    <geom name="table" type="box" pos="0.0365999161 -0.5065795542 0.02637625668" quat="0.6860166329 -0.01588186134 -0.01842729524 0.7271790568" size="0.363853878 0.3309096983 0.018" rgba=".85 .86 .83 1" friction=".65 .005 .001" solref=".004 1" solimp=".95 .995 .001 .5 2" />
+    <geom type="box" friction=".65 .005 .001" solref=".004 1" solimp=".95 .995 .001 .5 2" name="desk_border_umin" pos="0.08753142885 -1.036440114 0.02618583046" quat="0.6860166329 -0.01588186134 -0.01842729524 0.7271790568" size="0.168073061 0.4 0.018" rgba=".10 .09 .08 1" />
+    <geom type="box" friction=".65 .005 .001" solref=".004 1" solimp=".95 .995 .001 .5 2" name="desk_border_umax" pos="0.02555354481 0.02560433508 0.02851029603" quat="0.6860166329 -0.01588186134 -0.01842729524 0.7271790568" size="0.168073061 0.4 0.018" rgba=".10 .09 .08 1" />
+    <geom type="box" friction=".65 .005 .001" solref=".004 1" solimp=".95 .995 .001 .5 2" name="desk_border_vmin" pos="0.4109766604 -0.4847719245 0.04461973111" quat="0.6860166329 -0.01588186134 -0.01842729524 0.7271790568" size="0.363853878 0.04454515086 0.018" rgba=".10 .09 .08 1" />
+    <geom type="box" friction=".65 .005 .001" solref=".004 1" solimp=".95 .995 .001 .5 2" name="desk_border_vmax" pos="-0.3178342575 -0.5272255194 0.009104588816" quat="0.6860166329 -0.01588186134 -0.01842729524 0.7271790568" size="0.363853878 0.02454515086 0.018" rgba=".10 .09 .08 1" />
+    <body name="object_orange_cube" pos="-0.001816881805 -0.5521604431 0.05921378068" quat="0.9853397412 0 0 0.1706036178">
+      <freejoint name="object_orange_cube_free" />
+      <inertial pos="0 0 0" mass="0.03" diaginertia="5.12e-06 5.12e-06 5.12e-06" />
+      <geom name="orange_cube_visual_0" type="mesh" mesh="orange_cube_part_0" contype="0" conaffinity="0" group="2" rgba="1 0.3 0.02 1" />
+      <geom name="orange_cube_collision_0" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="orange_cube_part_0" solimp=".95 .995 .001 .5 2" />
+    </body>
+    <body name="object_dustpan" pos="-0.02106315117 -0.3708336266 0.06006273364" quat="0.9994645363 0 0 0.03272064664">
+      <freejoint name="object_dustpan_free" />
+      <inertial pos="2.567231192e-18 -0.0319531 -0.005664032786" mass="0.15" diaginertia="0.0008539227278 0.000346 0.001180322728" />
+      <geom name="dustpan_visual_0" type="mesh" mesh="dustpan_part_0" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_0" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_0" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_1" type="mesh" mesh="dustpan_part_1" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_1" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_1" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_2" type="mesh" mesh="dustpan_part_2" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_2" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_2" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_3" type="mesh" mesh="dustpan_part_3" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_3" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_3" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_4" type="mesh" mesh="dustpan_part_4" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_4" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_4" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_5" type="mesh" mesh="dustpan_part_5" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_5" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_5" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_6" type="mesh" mesh="dustpan_part_6" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_6" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_6" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_7" type="mesh" mesh="dustpan_part_7" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_7" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_7" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_8" type="mesh" mesh="dustpan_part_8" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_8" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_8" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_9" type="mesh" mesh="dustpan_part_9" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_9" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_9" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_10" type="mesh" mesh="dustpan_part_10" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_10" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_10" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_11" type="mesh" mesh="dustpan_part_11" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_11" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_11" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_12" type="mesh" mesh="dustpan_part_12" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_12" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_12" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_13" type="mesh" mesh="dustpan_part_13" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_13" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_13" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_14" type="mesh" mesh="dustpan_part_14" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_14" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_14" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_15" type="mesh" mesh="dustpan_part_15" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_15" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_15" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_16" type="mesh" mesh="dustpan_part_16" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_16" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_16" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_17" type="mesh" mesh="dustpan_part_17" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_17" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_17" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_18" type="mesh" mesh="dustpan_part_18" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_18" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_18" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_19" type="mesh" mesh="dustpan_part_19" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_19" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_19" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_20" type="mesh" mesh="dustpan_part_20" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_20" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_20" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_21" type="mesh" mesh="dustpan_part_21" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_21" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_21" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_22" type="mesh" mesh="dustpan_part_22" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_22" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_22" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_23" type="mesh" mesh="dustpan_part_23" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_23" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_23" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_24" type="mesh" mesh="dustpan_part_24" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_24" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_24" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_25" type="mesh" mesh="dustpan_part_25" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_25" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_25" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_26" type="mesh" mesh="dustpan_part_26" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_26" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_26" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_27" type="mesh" mesh="dustpan_part_27" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_27" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_27" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_28" type="mesh" mesh="dustpan_part_28" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_28" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_28" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_29" type="mesh" mesh="dustpan_part_29" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_29" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_29" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_30" type="mesh" mesh="dustpan_part_30" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_30" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_30" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_31" type="mesh" mesh="dustpan_part_31" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_31" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_31" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_32" type="mesh" mesh="dustpan_part_32" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_32" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_32" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_33" type="mesh" mesh="dustpan_part_33" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_33" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_33" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_34" type="mesh" mesh="dustpan_part_34" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_34" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_34" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_35" type="mesh" mesh="dustpan_part_35" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_35" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_35" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_36" type="mesh" mesh="dustpan_part_36" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_36" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_36" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_37" type="mesh" mesh="dustpan_part_37" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_37" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_37" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_38" type="mesh" mesh="dustpan_part_38" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_38" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_38" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_39" type="mesh" mesh="dustpan_part_39" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_39" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_39" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_40" type="mesh" mesh="dustpan_part_40" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_40" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_40" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_41" type="mesh" mesh="dustpan_part_41" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_41" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_41" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_42" type="mesh" mesh="dustpan_part_42" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_42" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_42" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_43" type="mesh" mesh="dustpan_part_43" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_43" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_43" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_44" type="mesh" mesh="dustpan_part_44" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_44" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_44" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_45" type="mesh" mesh="dustpan_part_45" contype="0" conaffinity="0" group="2" rgba="1 0.3300000131 0.0120000001 1" />
+      <geom name="dustpan_collision_45" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_45" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_46" type="mesh" mesh="dustpan_part_46" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_46" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_46" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_47" type="mesh" mesh="dustpan_part_47" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_47" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_47" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_48" type="mesh" mesh="dustpan_part_48" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_48" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_48" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_49" type="mesh" mesh="dustpan_part_49" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_49" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_49" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_50" type="mesh" mesh="dustpan_part_50" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_50" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_50" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_51" type="mesh" mesh="dustpan_part_51" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_51" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_51" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_52" type="mesh" mesh="dustpan_part_52" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_52" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_52" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_53" type="mesh" mesh="dustpan_part_53" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_53" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_53" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_54" type="mesh" mesh="dustpan_part_54" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_54" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_54" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_55" type="mesh" mesh="dustpan_part_55" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_55" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_55" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_56" type="mesh" mesh="dustpan_part_56" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_56" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_56" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_57" type="mesh" mesh="dustpan_part_57" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_57" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_57" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_58" type="mesh" mesh="dustpan_part_58" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_58" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_58" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_59" type="mesh" mesh="dustpan_part_59" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_59" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_59" solimp=".95 .995 .001 .5 2" />
+      <geom name="dustpan_visual_60" type="mesh" mesh="dustpan_part_60" contype="0" conaffinity="0" group="2" rgba="0.2399999946 0.2599999905 0.2800000012 1" />
+      <geom name="dustpan_collision_60" rgba="0 0 0 0" group="3" friction=".65 .005 .001" condim="4" solref=".004 1" type="mesh" mesh="dustpan_part_60" solimp=".95 .995 .001 .5 2" />
+    </body>
+    <body name="object_brush" pos="0.02766824067 -0.6618673262 0.04368671847" quat="0.9929348325 0.005299646335 -0.02374262998 -0.1161405168">
+      <freejoint name="object_brush_free" />
+      <inertial pos="0.04283983375 0 0.02111111111" mass="0.09" diaginertia="1.540555556e-05 0.0005889015928 0.0005845960372" />
+      <geom name="brush_bristles_visual" type="box" pos="0 0 0.011" size="0.0575 0.013 0.011" rgba=".09 .1 .11 1" group="2" contype="0" conaffinity="0" />
+      <geom name="brush_head_visual" type="box" pos="0 0 0.0285" size="0.0575 0.015 0.0065" rgba="1 .33 .012 1" group="2" contype="0" conaffinity="0" />
+      <geom name="brush_handle_visual" type="box" pos="0.1542234015 0 0.0305" size="0.0967234015 0.009 0.0045" rgba="1 .33 .012 1" group="2" contype="0" conaffinity="0" />
+      <geom name="brush_collision_bristles" type="box" pos="0 0 0.011" size="0.0575 0.013 0.011" friction=".45 .001 .0005" solref=".045 1" solimp=".7 .95 .006 .5 2" priority="1" group="3" rgba="0 0 0 0" condim="4" />
+      <geom name="brush_collision_head" type="box" pos="0 0 0.0285" size="0.0575 0.015 0.0065" friction=".8 .005 .002" solref=".004 1" solimp=".95 .995 .001 .5 2" group="3" rgba="0 0 0 0" condim="4" />
+      <geom name="brush_collision_handle" type="box" pos="0.1542234015 0 0.0305" size="0.0967234015 0.009 0.0045" friction=".8 .005 .002" solref=".004 1" solimp=".95 .995 .001 .5 2" group="3" rgba="0 0 0 0" condim="4" />
+    </body>
+    <body name="base_link" pos="-0.623072485 -0.5432703342 -0.798699564" quat="0.9992802553 0.001799893569 -0.02426023728 0.02910622907">
+      <geom pos="0 0 0.786" quat="1 0 0 0" type="mesh" rgba="0.75 0.75 0.77 1" mesh="base_link" name="base_link_collision" contype="4" conaffinity="1" />
+      <geom pos="0 0 0.786" type="mesh" rgba="0.75 0.75 0.77 1" mesh="Torso_Link" name="torso_collision" contype="4" conaffinity="1" />
+      <geom name="left_arm_link0_collision" pos="0.02713 0.07009 1.286" quat="0.747283 -0.436865 0.49775 0.0544278" type="mesh" mesh="link0" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+      <geom name="right_arm_link0_collision" pos="0.02713 -0.07009 1.286" quat="0.747283 0.436865 0.49775 -0.0544278" type="mesh" mesh="link0" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+      <body name="left_arm_link1" pos="0.259019 0.305557 1.32689" quat="0.747283 -0.436865 0.49775 0.0544278" gravcomp="1">
+        <inertial pos="4.128e-07 -0.0181251 -0.0386036" quat="0.998098 -0.0605364 0.00380499 0.0110109" mass="2.92747" diaginertia="0.0239286 0.0227246 0.00610634" />
+        <joint name="left_arm_joint1" pos="0 0 0" axis="0 0 1" range="-2.7437 2.7437" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+        <geom name="left_arm_link1_collision" type="mesh" mesh="link1" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+        <body name="left_arm_link2" quat="0.707107 -0.707107 0 0" gravcomp="1">
+          <inertial pos="0.00318289 -0.0743222 0.00881461" quat="0.502599 0.584437 -0.465998 0.434366" mass="2.93554" diaginertia="0.0629567 0.0411924 0.0246371" />
+          <joint name="left_arm_joint2" pos="0 0 0" axis="0 0 1" range="-1.7837 1.7837" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+          <geom name="left_arm_link2_collision" type="mesh" mesh="link2" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+          <body name="left_arm_link3" pos="0 -0.316 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+            <inertial pos="0.0407016 -0.00482006 -0.0289731" quat="0.921025 -0.244161 0.155272 0.260745" mass="2.2449" diaginertia="0.0267409 0.0189869 0.0171587" />
+            <joint name="left_arm_joint3" pos="0 0 0" axis="0 0 1" range="-2.9007 2.9007" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+            <geom name="left_arm_link3_collision" type="mesh" mesh="link3" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+            <body name="left_arm_link4" pos="0.0825 0 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+              <inertial pos="-0.0459101 0.0630493 -0.00851879" quat="0.438018 0.803311 0.00937812 0.403414" mass="2.6156" diaginertia="0.05139 0.0372717 0.0160047" />
+              <joint name="left_arm_joint4" pos="0 0 0" axis="0 0 1" range="-3.0421 -0.1518" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+              <geom name="left_arm_link4_collision" type="mesh" mesh="link4" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+              <body name="left_arm_link5" pos="-0.0825 0.384 0" quat="0.707107 -0.707107 0 0" gravcomp="1">
+                <inertial pos="-0.00160396 0.0292536 -0.0972966" quat="0.919031 0.125604 0.0751531 -0.366003" mass="2.32712" diaginertia="0.0579335 0.0449144 0.0130634" />
+                <joint name="left_arm_joint5" pos="0 0 0" axis="0 0 1" range="-2.8065 2.8065" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                <geom name="left_arm_link5_collision" type="mesh" mesh="link5" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                <body name="left_arm_link6" quat="0.707107 0.707107 0 0" gravcomp="1">
+                  <inertial pos="0.0597131 -0.0410295 -0.0101693" quat="0.621301 0.552665 0.510011 0.220081" mass="1.81704" diaginertia="0.0175039 0.0161123 0.00193529" />
+                  <joint name="left_arm_joint6" pos="0 0 0" axis="0 0 1" range="0.5445 4.5169" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                  <geom name="left_arm_link6_collision" type="mesh" mesh="link6" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                  <body name="left_arm_link7" pos="0.088 0 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+                    <inertial pos="0.00189104 0.00381943 0.0618812" quat="0.92393 0.048094 -0.00780451 -0.379447" mass="1.336" diaginertia="0.00986005 0.00790645 0.0022173" />
+                    <joint name="left_arm_joint7" pos="0 0 0" axis="0 0 1" range="-3.0159 3.0159" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                    <geom name="left_arm_link7_collision" type="mesh" mesh="link7" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                    <geom name="left_arm_hand_collision" pos="0 0 0.107" quat="0.92388 0 0 -0.382683" type="mesh" mesh="hand" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                    <body name="left_arm_leftfinger" pos="0 0 0.1654" quat="0.92388 0 0 -0.382683" gravcomp="1">
+                      <joint name="left_arm_finger_joint1" pos="0 0 0" axis="0 1 0" type="slide" range="0 0.04" actuatorfrcrange="-100 100" damping="0.3" actuatorgravcomp="true" />
+                      <geom type="mesh" mesh="umi_finger" contype="2" conaffinity="7" rgba="0.85 0.80 0.62 1" name="left_arm_leftfinger_collision" />
+                    </body>
+                    <body name="left_arm_rightfinger" pos="0 0 0.1654" quat="0.92388 0 0 -0.382683" gravcomp="1">
+                      <joint name="left_arm_finger_joint2" pos="0 0 0" axis="0 -1 0" type="slide" range="0 0.04" actuatorfrcrange="-100 100" damping="0.3" />
+                      <geom quat="0 0 0 1" type="mesh" mesh="umi_finger" contype="2" conaffinity="7" rgba="0.85 0.80 0.62 1" name="left_arm_rightfinger_collision" />
+                    </body>
+                    <site name="left_tcp" pos="0 0 0.3144" quat="0.92388 0 0 -0.382683" size="0.004" rgba="1 0 0 0" group="4" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_arm_link1" pos="0.259019 -0.305557 1.32689" quat="0.747283 0.436865 0.49775 -0.0544278" gravcomp="1">
+        <inertial pos="4.128e-07 -0.0181251 -0.0386036" quat="0.998098 -0.0605364 0.00380499 0.0110109" mass="2.92747" diaginertia="0.0239286 0.0227246 0.00610634" />
+        <joint name="right_arm_joint1" pos="0 0 0" axis="0 0 1" range="-2.7437 2.7437" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+        <geom name="right_arm_link1_collision" type="mesh" mesh="link1" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+        <body name="right_arm_link2" quat="0.707107 -0.707107 0 0" gravcomp="1">
+          <inertial pos="0.00318289 -0.0743222 0.00881461" quat="0.502599 0.584437 -0.465998 0.434366" mass="2.93554" diaginertia="0.0629567 0.0411924 0.0246371" />
+          <joint name="right_arm_joint2" pos="0 0 0" axis="0 0 1" range="-1.7837 1.7837" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+          <geom name="right_arm_link2_collision" type="mesh" mesh="link2" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+          <body name="right_arm_link3" pos="0 -0.316 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+            <inertial pos="0.0407016 -0.00482006 -0.0289731" quat="0.921025 -0.244161 0.155272 0.260745" mass="2.2449" diaginertia="0.0267409 0.0189869 0.0171587" />
+            <joint name="right_arm_joint3" pos="0 0 0" axis="0 0 1" range="-2.9007 2.9007" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+            <geom name="right_arm_link3_collision" type="mesh" mesh="link3" contype="4" conaffinity="1" rgba="0.75 0.75 0.77 1" />
+            <body name="right_arm_link4" pos="0.0825 0 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+              <inertial pos="-0.0459101 0.0630493 -0.00851879" quat="0.438018 0.803311 0.00937812 0.403414" mass="2.6156" diaginertia="0.05139 0.0372717 0.0160047" />
+              <joint name="right_arm_joint4" pos="0 0 0" axis="0 0 1" range="-3.0421 -0.1518" actuatorfrcrange="-87 87" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+              <geom name="right_arm_link4_collision" type="mesh" mesh="link4" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+              <body name="right_arm_link5" pos="-0.0825 0.384 0" quat="0.707107 -0.707107 0 0" gravcomp="1">
+                <inertial pos="-0.00160396 0.0292536 -0.0972966" quat="0.919031 0.125604 0.0751531 -0.366003" mass="2.32712" diaginertia="0.0579335 0.0449144 0.0130634" />
+                <joint name="right_arm_joint5" pos="0 0 0" axis="0 0 1" range="-2.8065 2.8065" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                <geom name="right_arm_link5_collision" type="mesh" mesh="link5" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                <body name="right_arm_link6" quat="0.707107 0.707107 0 0" gravcomp="1">
+                  <inertial pos="0.0597131 -0.0410295 -0.0101693" quat="0.621301 0.552665 0.510011 0.220081" mass="1.81704" diaginertia="0.0175039 0.0161123 0.00193529" />
+                  <joint name="right_arm_joint6" pos="0 0 0" axis="0 0 1" range="0.5445 4.5169" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                  <geom name="right_arm_link6_collision" type="mesh" mesh="link6" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                  <body name="right_arm_link7" pos="0.088 0 0" quat="0.707107 0.707107 0 0" gravcomp="1">
+                    <inertial pos="0.00189104 0.00381943 0.0618812" quat="0.92393 0.048094 -0.00780451 -0.379447" mass="1.336" diaginertia="0.00986005 0.00790645 0.0022173" />
+                    <joint name="right_arm_joint7" pos="0 0 0" axis="0 0 1" range="-3.0159 3.0159" actuatorfrcrange="-12 12" damping="0.003" armature="0.1" actuatorgravcomp="true" />
+                    <geom name="right_arm_link7_collision" type="mesh" mesh="link7" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                    <geom name="right_arm_hand_collision" pos="0 0 0.107" quat="0.92388 0 0 -0.382683" type="mesh" mesh="hand" contype="2" conaffinity="7" rgba="0.75 0.75 0.77 1" />
+                    <body name="right_arm_leftfinger" pos="0 0 0.1654" quat="0.92388 0 0 -0.382683" gravcomp="1">
+                      <joint name="right_arm_finger_joint1" pos="0 0 0" axis="0 1 0" type="slide" range="0 0.04" actuatorfrcrange="-100 100" damping="0.3" actuatorgravcomp="true" />
+                      <geom type="mesh" mesh="umi_finger" contype="2" conaffinity="7" rgba="0.85 0.80 0.62 1" name="right_arm_leftfinger_collision" />
+                    </body>
+                    <body name="right_arm_rightfinger" pos="0 0 0.1654" quat="0.92388 0 0 -0.382683" gravcomp="1">
+                      <joint name="right_arm_finger_joint2" pos="0 0 0" axis="0 -1 0" type="slide" range="0 0.04" actuatorfrcrange="-100 100" damping="0.3" />
+                      <geom quat="0 0 0 1" type="mesh" mesh="umi_finger" contype="2" conaffinity="7" rgba="0.85 0.80 0.62 1" name="right_arm_rightfinger_collision" />
+                    </body>
+                    <site name="right_tcp" pos="0 0 0.3144" quat="0.92388 0 0 -0.382683" size="0.004" rgba="1 0 0 0" group="4" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <camera name="main_cam" pos="0.259 0.0 1.447" quat="-0.674379723 -0.212631110 0.212631110 0.674379723" fovy="53.765233" resolution="1920 1080" />
+    </body>
+    <camera name="global_franka" pos="-1.066409986 -0.5733678804 1.131985806" xyaxes="0.05825789173 -0.9982991756 -0.002184948163 0.7020506653 0.03941345136 0.7110354726" fovy="58" />
+  </worldbody>
+  <actuator>
+    <position name="left_arm_act1" joint="left_arm_joint1" kp="1000.0" kv="100.0" ctrlrange="-2.7437 2.7437" forcerange="-87 87" />
+    <position name="left_arm_act2" joint="left_arm_joint2" kp="1000.0" kv="100.0" ctrlrange="-1.7837 1.7837" forcerange="-87 87" />
+    <position name="left_arm_act3" joint="left_arm_joint3" kp="1000.0" kv="100.0" ctrlrange="-2.9007 2.9007" forcerange="-87 87" />
+    <position name="left_arm_act4" joint="left_arm_joint4" kp="1000.0" kv="100.0" ctrlrange="-3.0421 -0.1518" forcerange="-87 87" />
+    <position name="left_arm_act5" joint="left_arm_joint5" kp="1000.0" kv="100.0" ctrlrange="-2.8065 2.8065" forcerange="-12 12" />
+    <position name="left_arm_act6" joint="left_arm_joint6" kp="1000.0" kv="100.0" ctrlrange="0.5445 4.5169" forcerange="-12 12" />
+    <position name="left_arm_act7" joint="left_arm_joint7" kp="1000.0" kv="100.0" ctrlrange="-3.0159 3.0159" forcerange="-12 12" />
+    <position name="left_hand_act" joint="left_arm_finger_joint1" kp="2000.0" kv="100.0" ctrlrange="0 0.04" forcerange="-100 100" />
+    <position name="right_arm_act1" joint="right_arm_joint1" kp="1000.0" kv="100.0" ctrlrange="-2.7437 2.7437" forcerange="-87 87" />
+    <position name="right_arm_act2" joint="right_arm_joint2" kp="1000.0" kv="100.0" ctrlrange="-1.7837 1.7837" forcerange="-87 87" />
+    <position name="right_arm_act3" joint="right_arm_joint3" kp="1000.0" kv="100.0" ctrlrange="-2.9007 2.9007" forcerange="-87 87" />
+    <position name="right_arm_act4" joint="right_arm_joint4" kp="1000.0" kv="100.0" ctrlrange="-3.0421 -0.1518" forcerange="-87 87" />
+    <position name="right_arm_act5" joint="right_arm_joint5" kp="1000.0" kv="100.0" ctrlrange="-2.8065 2.8065" forcerange="-12 12" />
+    <position name="right_arm_act6" joint="right_arm_joint6" kp="1000.0" kv="100.0" ctrlrange="0.5445 4.5169" forcerange="-12 12" />
+    <position name="right_arm_act7" joint="right_arm_joint7" kp="1000.0" kv="100.0" ctrlrange="-3.0159 3.0159" forcerange="-12 12" />
+    <position name="right_hand_act" joint="right_arm_finger_joint1" kp="2000.0" kv="100.0" ctrlrange="0 0.04" forcerange="-100 100" />
+  </actuator>
+  <equality>
+    <joint name="left_finger_mimic" joint1="left_arm_finger_joint2" joint2="left_arm_finger_joint1" polycoef="0 1 0 0 0" solref="0.005 1" />
+    <joint name="right_finger_mimic" joint1="right_arm_finger_joint2" joint2="right_arm_finger_joint1" polycoef="0 1 0 0 0" solref="0.005 1" />
+  </equality>
+  <contact>
+    <exclude name="left_arm_link1__left_arm_link2" body1="left_arm_link1" body2="left_arm_link2" />
+    <exclude name="left_arm_link1__left_arm_link3" body1="left_arm_link1" body2="left_arm_link3" />
+    <exclude name="left_arm_link1__left_arm_link4" body1="left_arm_link1" body2="left_arm_link4" />
+    <exclude name="left_arm_link1__left_arm_link5" body1="left_arm_link1" body2="left_arm_link5" />
+    <exclude name="left_arm_link1__left_arm_link6" body1="left_arm_link1" body2="left_arm_link6" />
+    <exclude name="left_arm_link1__left_arm_link7" body1="left_arm_link1" body2="left_arm_link7" />
+    <exclude name="left_arm_link1__left_arm_leftfinger" body1="left_arm_link1" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link1__left_arm_rightfinger" body1="left_arm_link1" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link2__left_arm_link3" body1="left_arm_link2" body2="left_arm_link3" />
+    <exclude name="left_arm_link2__left_arm_link4" body1="left_arm_link2" body2="left_arm_link4" />
+    <exclude name="left_arm_link2__left_arm_link5" body1="left_arm_link2" body2="left_arm_link5" />
+    <exclude name="left_arm_link2__left_arm_link6" body1="left_arm_link2" body2="left_arm_link6" />
+    <exclude name="left_arm_link2__left_arm_link7" body1="left_arm_link2" body2="left_arm_link7" />
+    <exclude name="left_arm_link2__left_arm_leftfinger" body1="left_arm_link2" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link2__left_arm_rightfinger" body1="left_arm_link2" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link3__left_arm_link4" body1="left_arm_link3" body2="left_arm_link4" />
+    <exclude name="left_arm_link3__left_arm_link5" body1="left_arm_link3" body2="left_arm_link5" />
+    <exclude name="left_arm_link3__left_arm_link6" body1="left_arm_link3" body2="left_arm_link6" />
+    <exclude name="left_arm_link3__left_arm_link7" body1="left_arm_link3" body2="left_arm_link7" />
+    <exclude name="left_arm_link3__left_arm_leftfinger" body1="left_arm_link3" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link3__left_arm_rightfinger" body1="left_arm_link3" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link4__left_arm_link5" body1="left_arm_link4" body2="left_arm_link5" />
+    <exclude name="left_arm_link4__left_arm_link6" body1="left_arm_link4" body2="left_arm_link6" />
+    <exclude name="left_arm_link4__left_arm_link7" body1="left_arm_link4" body2="left_arm_link7" />
+    <exclude name="left_arm_link4__left_arm_leftfinger" body1="left_arm_link4" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link4__left_arm_rightfinger" body1="left_arm_link4" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link5__left_arm_link6" body1="left_arm_link5" body2="left_arm_link6" />
+    <exclude name="left_arm_link5__left_arm_link7" body1="left_arm_link5" body2="left_arm_link7" />
+    <exclude name="left_arm_link5__left_arm_leftfinger" body1="left_arm_link5" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link5__left_arm_rightfinger" body1="left_arm_link5" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link6__left_arm_link7" body1="left_arm_link6" body2="left_arm_link7" />
+    <exclude name="left_arm_link6__left_arm_leftfinger" body1="left_arm_link6" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link6__left_arm_rightfinger" body1="left_arm_link6" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_link7__left_arm_leftfinger" body1="left_arm_link7" body2="left_arm_leftfinger" />
+    <exclude name="left_arm_link7__left_arm_rightfinger" body1="left_arm_link7" body2="left_arm_rightfinger" />
+    <exclude name="left_arm_leftfinger__left_arm_rightfinger" body1="left_arm_leftfinger" body2="left_arm_rightfinger" />
+    <exclude name="right_arm_link1__right_arm_link2" body1="right_arm_link1" body2="right_arm_link2" />
+    <exclude name="right_arm_link1__right_arm_link3" body1="right_arm_link1" body2="right_arm_link3" />
+    <exclude name="right_arm_link1__right_arm_link4" body1="right_arm_link1" body2="right_arm_link4" />
+    <exclude name="right_arm_link1__right_arm_link5" body1="right_arm_link1" body2="right_arm_link5" />
+    <exclude name="right_arm_link1__right_arm_link6" body1="right_arm_link1" body2="right_arm_link6" />
+    <exclude name="right_arm_link1__right_arm_link7" body1="right_arm_link1" body2="right_arm_link7" />
+    <exclude name="right_arm_link1__right_arm_leftfinger" body1="right_arm_link1" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link1__right_arm_rightfinger" body1="right_arm_link1" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link2__right_arm_link3" body1="right_arm_link2" body2="right_arm_link3" />
+    <exclude name="right_arm_link2__right_arm_link4" body1="right_arm_link2" body2="right_arm_link4" />
+    <exclude name="right_arm_link2__right_arm_link5" body1="right_arm_link2" body2="right_arm_link5" />
+    <exclude name="right_arm_link2__right_arm_link6" body1="right_arm_link2" body2="right_arm_link6" />
+    <exclude name="right_arm_link2__right_arm_link7" body1="right_arm_link2" body2="right_arm_link7" />
+    <exclude name="right_arm_link2__right_arm_leftfinger" body1="right_arm_link2" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link2__right_arm_rightfinger" body1="right_arm_link2" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link3__right_arm_link4" body1="right_arm_link3" body2="right_arm_link4" />
+    <exclude name="right_arm_link3__right_arm_link5" body1="right_arm_link3" body2="right_arm_link5" />
+    <exclude name="right_arm_link3__right_arm_link6" body1="right_arm_link3" body2="right_arm_link6" />
+    <exclude name="right_arm_link3__right_arm_link7" body1="right_arm_link3" body2="right_arm_link7" />
+    <exclude name="right_arm_link3__right_arm_leftfinger" body1="right_arm_link3" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link3__right_arm_rightfinger" body1="right_arm_link3" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link4__right_arm_link5" body1="right_arm_link4" body2="right_arm_link5" />
+    <exclude name="right_arm_link4__right_arm_link6" body1="right_arm_link4" body2="right_arm_link6" />
+    <exclude name="right_arm_link4__right_arm_link7" body1="right_arm_link4" body2="right_arm_link7" />
+    <exclude name="right_arm_link4__right_arm_leftfinger" body1="right_arm_link4" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link4__right_arm_rightfinger" body1="right_arm_link4" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link5__right_arm_link6" body1="right_arm_link5" body2="right_arm_link6" />
+    <exclude name="right_arm_link5__right_arm_link7" body1="right_arm_link5" body2="right_arm_link7" />
+    <exclude name="right_arm_link5__right_arm_leftfinger" body1="right_arm_link5" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link5__right_arm_rightfinger" body1="right_arm_link5" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link6__right_arm_link7" body1="right_arm_link6" body2="right_arm_link7" />
+    <exclude name="right_arm_link6__right_arm_leftfinger" body1="right_arm_link6" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link6__right_arm_rightfinger" body1="right_arm_link6" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_link7__right_arm_leftfinger" body1="right_arm_link7" body2="right_arm_leftfinger" />
+    <exclude name="right_arm_link7__right_arm_rightfinger" body1="right_arm_link7" body2="right_arm_rightfinger" />
+    <exclude name="right_arm_leftfinger__right_arm_rightfinger" body1="right_arm_leftfinger" body2="right_arm_rightfinger" />
+  </contact>
+</mujoco>

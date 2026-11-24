@@ -1,0 +1,16 @@
+{
+ "what": "Accepted ORIGINAL source DEV0-19 pose-file SHA-256 pins (identity map of the unchanged original7 layouts)",
+ "source_audit": "runs/lift2_suite_20261108/rigid4/initial_contacts.json",
+ "source_audit_structure": "tasks[TASK].sha256.layouts",
+ "source_audit_sha256": "bc5fb86619e8f9651cb313b25468369adeec3d3a074e7b63c3c32a9495fb24e1",
+ "layout_file": "runs/lift2_suite_20261108/worlds/dev_layouts_{task}_0_19.json",
+ "pins": {
+  "build_tower": "935fbb9cd1e9b3d618a9810301b2674432338f636f6981c17931b9068075b17b",
+  "collect_cubes": "ff2347a38ccebd89d8c2963af83c1036edcd0a3af275cb40f64ff2d2f3304d28",
+  "lift_box": "515421111a81cfa254058e01aa90ef026b6d83411308d777505abf0e4aaa63ea",
+  "open_drawer_and_place_object": "1e751aaa339f51773c11a821933dbec46d699a0a95c8935d2655759ca3b264f0",
+  "put_mug_on_box": "33783538cdb4705906a5b02d8fa99c00cd09399e5069eedf6c866b38fa8e6bda",
+  "stack_cups": "ef32c1bd7a5c2404c3018e933f6c1382ec98bd01d51727dda4ec93e8a8b5e03c",
+  "sweep_objects": "ae17336462e3ade38f0477b958db7b393c97147f54479b0273a34f08765fa34d"
+ }
+}

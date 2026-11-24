@@ -1,0 +1,21 @@
+{
+ "home_joints": [
+  [
+   -0.13171937595018354,
+   1.4751194903683453,
+   1.430284246403596,
+   -1.525961363611605,
+   -1.8986718157266535e-07,
+   -0.1317196960427398
+  ],
+  [
+   0.1170294200395304,
+   1.4734585893696823,
+   1.4287943739610154,
+   -1.5261323710007288,
+   1.8176988163140463e-07,
+   0.11702971672306411
+  ]
+ ],
+ "definition": "Declared ready pose (not a source angle): per arm TCP at base (0.30, +-0.22, 0.12) m, approach down, closing along base y. (computed by smooth_rigid/apple_prereq.py, same rule)"
+}

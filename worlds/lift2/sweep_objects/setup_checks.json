@@ -1,0 +1,361 @@
+{
+ "summary": {
+  "robot_obj_pen_mm": 0.0,
+  "robot_self_pen_mm": 0.0,
+  "obj_obj_pen_mm": 0.52,
+  "obj_table_pen_mm": 1.79,
+  "fully_visible_object_orange_cube": 20,
+  "min_margin_px_object_orange_cube": 38.2,
+  "min_vertex_frac_in_frame_object_orange_cube": 1.0,
+  "fully_visible_object_dustpan": 0,
+  "min_margin_px_object_dustpan": -28.5,
+  "min_vertex_frac_in_frame_object_dustpan": 0.906,
+  "fully_visible_object_brush": 16,
+  "min_margin_px_object_brush": -8.9,
+  "min_vertex_frac_in_frame_object_brush": 0.917
+ },
+ "rows": [
+  {
+   "layout": 0,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.26,
+   "pairs": [
+    "world|object_orange_cube:1.26",
+    "world|object_brush:0.31",
+    "world|object_brush:0.22",
+    "world|object_brush:0.23",
+    "world|object_brush:0.14"
+   ],
+   "vis_object_orange_cube": 122.0,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": -1.8,
+   "visfrac_object_brush": 0.958
+  },
+  {
+   "layout": 1,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.52,
+   "obj_table_pen_mm": 1.76,
+   "pairs": [
+    "world|object_orange_cube:1.76",
+    "world|object_brush:0.63",
+    "world|object_brush:0.53",
+    "world|object_brush:0.57",
+    "world|object_brush:0.47",
+    "object_brush|object_orange_cube:0.52"
+   ],
+   "vis_object_orange_cube": 131.4,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 88.1,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 2,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.33,
+   "pairs": [
+    "world|object_brush:0.33",
+    "world|object_brush:0.31",
+    "world|object_brush:0.32",
+    "world|object_brush:0.31"
+   ],
+   "vis_object_orange_cube": 89.4,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 38.1,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 3,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_orange_cube": 70.1,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": -3.0,
+   "visfrac_object_brush": 0.958
+  },
+  {
+   "layout": 4,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_orange_cube": 52.6,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 6.3,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 5,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_orange_cube": 100.8,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 19.3,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 6,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.14,
+   "pairs": [
+    "world|object_brush:0.14",
+    "world|object_brush:0.10"
+   ],
+   "vis_object_orange_cube": 101.6,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": -8.9,
+   "visfrac_object_brush": 0.917
+  },
+  {
+   "layout": 7,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.0,
+   "pairs": [],
+   "vis_object_orange_cube": 44.1,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 44.0,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 8,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.34,
+   "pairs": [
+    "world|object_brush:0.34",
+    "world|object_brush:0.22"
+   ],
+   "vis_object_orange_cube": 51.8,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 28.1,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 9,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.79,
+   "pairs": [
+    "world|object_orange_cube:1.79"
+   ],
+   "vis_object_orange_cube": 137.9,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": -8.4,
+   "visfrac_object_brush": 0.917
+  },
+  {
+   "layout": 10,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.31,
+   "pairs": [
+    "world|object_brush:0.31",
+    "world|object_brush:0.15",
+    "world|object_brush:0.12"
+   ],
+   "vis_object_orange_cube": 63.3,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 25.9,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 11,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.52,
+   "pairs": [
+    "world|object_orange_cube:1.52"
+   ],
+   "vis_object_orange_cube": 124.2,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 50.1,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 12,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.11,
+   "pairs": [
+    "world|object_orange_cube:0.11"
+   ],
+   "vis_object_orange_cube": 91.9,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 49.1,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 13,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.23,
+   "pairs": [
+    "world|object_orange_cube:1.23"
+   ],
+   "vis_object_orange_cube": 118.4,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 11.6,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 14,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.21,
+   "pairs": [
+    "world|object_orange_cube:1.21",
+    "world|object_brush:0.82",
+    "world|object_brush:0.55",
+    "world|object_brush:0.69",
+    "world|object_brush:0.42"
+   ],
+   "vis_object_orange_cube": 125.0,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 68.3,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 15,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.21,
+   "pairs": [
+    "world|object_brush:0.21",
+    "world|object_brush:0.16",
+    "world|object_brush:0.17",
+    "world|object_brush:0.12"
+   ],
+   "vis_object_orange_cube": 101.0,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 17.6,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 16,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.66,
+   "pairs": [
+    "world|object_orange_cube:1.66",
+    "world|object_brush:0.84",
+    "world|object_brush:0.47",
+    "world|object_brush:0.68",
+    "world|object_brush:0.31"
+   ],
+   "vis_object_orange_cube": 125.8,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 68.6,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 17,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 1.72,
+   "pairs": [
+    "world|object_orange_cube:1.72"
+   ],
+   "vis_object_orange_cube": 134.3,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 38.9,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 18,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.16,
+   "pairs": [
+    "world|object_brush:0.16"
+   ],
+   "vis_object_orange_cube": 38.2,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 46.7,
+   "visfrac_object_brush": 1.0
+  },
+  {
+   "layout": 19,
+   "robot_obj_pen_mm": 0.0,
+   "robot_self_pen_mm": 0.0,
+   "obj_obj_pen_mm": 0.0,
+   "obj_table_pen_mm": 0.93,
+   "pairs": [
+    "world|object_brush:0.93",
+    "world|object_brush:0.78",
+    "world|object_brush:0.77",
+    "world|object_brush:0.62"
+   ],
+   "vis_object_orange_cube": 54.8,
+   "visfrac_object_orange_cube": 1.0,
+   "vis_object_dustpan": -28.5,
+   "visfrac_object_dustpan": 0.906,
+   "vis_object_brush": 73.4,
+   "visfrac_object_brush": 1.0
+  }
+ ]
+}

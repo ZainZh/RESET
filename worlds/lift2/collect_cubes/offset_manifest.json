@@ -1,0 +1,69 @@
+{
+ "task": "collect_cubes",
+ "candidate": "o2",
+ "source_setup": "runs/lift2_suite_20261108/smooth_table_v1_rigid/collect_cubes",
+ "source_layouts_sha256": "ff2347a38ccebd89d8c2963af83c1036edcd0a3af275cb40f64ff2d2f3304d28",
+ "derived_layouts_sha256": "1ee300d4c4c68bf28926daf035aef51e1228e5d675919e50dccc9a1012698e1f",
+ "offset_base_xy_m": {
+  "object_bowl": [
+   0.1378,
+   -0.0098
+  ],
+  "object_yellow_cube": [
+   0.3661,
+   0.1594
+  ],
+  "object_yellow_bar": [
+   -0.1366,
+   0.0065
+  ],
+  "object_green_cube": [
+   -0.1468,
+   -0.2311
+  ],
+  "object_purple_cube": [
+   -0.1364,
+   0.1613
+  ],
+  "object_blue_cube": [
+   0.2552,
+   -0.072
+  ]
+ },
+ "translation_world_m": {
+  "object_bowl": [
+   -0.0027800118558613134,
+   -0.13812000431180307,
+   -0.00012626554862045294
+  ],
+  "object_yellow_cube": [
+   0.17758824335635695,
+   -0.3575243204570219,
+   0.008737625727165008
+  ],
+  "object_yellow_bar": [
+   -0.0004508453173665875,
+   0.1367538142308372,
+   -3.2121915758213556e-05
+  ],
+  "object_green_cube": [
+   -0.23797656578395113,
+   0.13486325176728872,
+   -0.011683640718101455
+  ],
+  "object_purple_cube": [
+   0.15397354993562554,
+   0.14442266670605233,
+   0.007542497048985159
+  ],
+  "object_blue_cube": [
+   -0.05886507231506533,
+   -0.2585299092986293,
+   -0.002868668573507385
+  ]
+ },
+ "per_seed_offsets_unchanged": true,
+ "orientation_unchanged": true,
+ "scene_sha256": "e06090e0942be38579ac997f32d5c79dec1a537d4b87c7a0690a4490aec5377b",
+ "scene_identical_to_source_setup": true
+}

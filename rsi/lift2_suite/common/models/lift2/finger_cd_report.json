@@ -1,0 +1,42 @@
+{
+ "left_link17": {
+  "n_hulls": 12,
+  "mesh_volume_m3": 4.1257445484675185e-05,
+  "hull_volume_sum_m3": 8.683943421582405e-05,
+  "volume_ratio": 2.1048184926543745,
+  "orig_surface_covered_0p5mm": 1.0,
+  "hull_surface_to_orig_p95_m": 0.0038397085731972386,
+  "hull_surface_to_orig_max_m": 0.007445370221844904,
+  "whole_mesh_hull_volume_ratio": 7.119231776497755
+ },
+ "left_link18": {
+  "n_hulls": 12,
+  "mesh_volume_m3": 4.138497755355662e-05,
+  "hull_volume_sum_m3": 8.692410437912284e-05,
+  "volume_ratio": 2.100378193189393,
+  "orig_surface_covered_0p5mm": 1.0,
+  "hull_surface_to_orig_p95_m": 0.003492073578152813,
+  "hull_surface_to_orig_max_m": 0.006850531005151008,
+  "whole_mesh_hull_volume_ratio": 6.466591030662637
+ },
+ "right_link27": {
+  "n_hulls": 12,
+  "mesh_volume_m3": 4.125744548467521e-05,
+  "hull_volume_sum_m3": 8.683943421582405e-05,
+  "volume_ratio": 2.104818492654373,
+  "orig_surface_covered_0p5mm": 1.0,
+  "hull_surface_to_orig_p95_m": 0.0037767029531019596,
+  "hull_surface_to_orig_max_m": 0.007402615991110824,
+  "whole_mesh_hull_volume_ratio": 7.1192317764977835
+ },
+ "right_link28": {
+  "n_hulls": 12,
+  "mesh_volume_m3": 4.138497755355668e-05,
+  "hull_volume_sum_m3": 8.692410437912284e-05,
+  "volume_ratio": 2.10037819318939,
+  "orig_surface_covered_0p5mm": 1.0,
+  "hull_surface_to_orig_p95_m": 0.0035112143636241108,
+  "hull_surface_to_orig_max_m": 0.007321803118089313,
+  "whole_mesh_hull_volume_ratio": 6.4665910306625936
+ }
+}

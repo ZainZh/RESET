@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "proposal_requires_root_acceptance_before_freeze",
+  "dwell_sec": 0.5,
+  "sample_period_sec": 0.05,
+  "sample_time_tolerance_sec": 0.005,
+  "max_linear_speed_m_s": 0.01,
+  "max_angular_speed_rad_s": 0.1,
+  "max_position_drift_m": 0.003,
+  "max_rotation_drift_deg": 3.0,
+  "upright_max_deg": 10.0,
+  "geometry_tolerance_m": 0.001,
+  "minimum_insertion_m": 0.015,
+  "minimum_support_force_N": 0.01,
+  "minimum_support_normal_up": 0.1,
+  "robot_contact_clearance_m": 0.002,
+  "max_penetration_m": 0.003,
+  "sources": [
+    "docs/route/THREE_TASK_PRACTICE.md#input-policy-and-scoring-boundaries",
+    "docs/route/PAPER_PLAN.md#50-\u4efb\u52a1\u6e05\u5355xtrainer-8-\u4e2a\u6309\u6280\u80fd\u65cf\u9009\u7528\u5b8c\u6574\u7248\u4efb\u52a1",
+    "docs/route/PAPER_PLAN.md#4-\u65b9\u6cd5\u7ae0\u8282"
+  ]
+}

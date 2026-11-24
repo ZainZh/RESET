@@ -1,0 +1,9 @@
+# Simulation, programs and scorers for xTrainer, Franka and ARX LIFT2 (Python 3.12).
+mujoco==3.2.3
+numpy==2.2.6
+scipy==1.16.2
+opencv-python-headless==4.12.0.88
+trimesh==4.8.3
+PyOpenGL==3.1.10
+Pillow==11.3.0
+PyYAML==6.0.2

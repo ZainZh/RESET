@@ -1,0 +1,124 @@
+{
+ "robot": "lift2",
+ "frozen": {
+  "object_size_m": [
+   0.07,
+   0.05,
+   0.04
+  ],
+  "object_mass_kg": 0.2,
+  "object_friction": [
+   0.8,
+   0.005,
+   0.0001
+  ],
+  "pad_friction": [
+   1.0,
+   0.005,
+   0.0001
+  ],
+  "timestep": 0.002
+ },
+ "declared": {
+  "base_z": 0.082,
+  "servo": [
+   [
+    600,
+    60,
+    27
+   ],
+   [
+    600,
+    60,
+    27
+   ],
+   [
+    600,
+    60,
+    27
+   ],
+   [
+    80,
+    8,
+    7
+   ],
+   [
+    80,
+    8,
+    7
+   ],
+   [
+    80,
+    8,
+    7
+   ]
+  ],
+  "grip_servo": [
+   4000,
+   200,
+   60
+  ],
+  "exclude": [
+   [
+    "base_link",
+    "left_link11"
+   ],
+   [
+    "base_link",
+    "left_link12"
+   ],
+   [
+    "base_link",
+    "right_link21"
+   ],
+   [
+    "base_link",
+    "right_link22"
+   ],
+   [
+    "left_link17",
+    "left_link18"
+   ],
+   [
+    "left_link17",
+    "left_gripper_pinion_link"
+   ],
+   [
+    "left_link18",
+    "left_gripper_pinion_link"
+   ],
+   [
+    "right_link27",
+    "right_link28"
+   ],
+   [
+    "right_link27",
+    "right_gripper_pinion_link"
+   ],
+   [
+    "right_link28",
+    "right_gripper_pinion_link"
+   ]
+  ],
+  "cameras": {
+   "head_d435_link": [
+    "head_d435",
+    45.0,
+    640,
+    480
+   ],
+   "left_d405_link": [
+    "left_d405",
+    58.0,
+    640,
+    480
+   ],
+   "right_d405_link": [
+    "right_d405",
+    58.0,
+    640,
+    480
+   ]
+  }
+ }
+}

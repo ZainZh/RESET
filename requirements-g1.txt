@@ -1,0 +1,6 @@
+# Unitree G1 cells (Python 3.11); the G1 programs were developed and evaluated with this MuJoCo version.
+mujoco==3.3.7
+numpy==2.4.6
+scipy==1.17.1
+PyOpenGL==3.1.10
+imageio==2.38.1
