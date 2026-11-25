@@ -13,7 +13,7 @@ results/<robot>/<task>/<run>/ (one directory per episode plus summary.json); exi
 Environment:
   RESET_PYTHON      interpreter for xtrainer / lift2 / franka (default: this interpreter)
   RESET_G1_PYTHON   interpreter for g1 (default: .venv-g1/bin/python)
-  RSI_SAM3_ADDR     unix socket of the running SAM3 service (see README, "Perception service")
+  RSI_SAM3_ADDR     unix socket of the running SAM3 service (see docs/SAM3_SERVICE.md)
   RESET_EGL_DEVICES comma-separated EGL device indices for rendering (default: 0)
 """
 import argparse, json, os, subprocess, sys, time

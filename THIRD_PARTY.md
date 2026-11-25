@@ -34,8 +34,7 @@ If you hold rights to any of them and want it changed or removed, please open an
   - **BrainCo hands**: the BrainCo Revo2 hand links and meshes are embedded in the Unitree URDF (marked
   `BrainCo begin/end`) and are therefore distributed by Unitree under the repository's BSD-3-Clause licence.
   BrainCo's own description repository (`BrainCoTech/brainco-description`) had no licence file when checked (its
-  README said licence information would follow). Confirm that redistribution of the hand meshes via the Unitree
-  licence is acceptable.
+  README said licence information would follow).
 
 ```
 BSD 3-Clause License
