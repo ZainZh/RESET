@@ -158,8 +158,8 @@ The paper's numbers were produced on NVIDIA H800 GPUs; on other GPUs or drivers 
 
 ## Related work
 
-[ReSkill: Selective Self-Improvement for Robot Manipulation](https://arxiv.org/abs/2611.10510), our earlier work on
-robot self-improvement.
+**ReSkill: Selective Self-Improvement for Robot Manipulation**, our earlier work on robot self-improvement.
+[Paper](https://arxiv.org/abs/2611.10510) &middot; [Project page](https://zainzh.github.io/ReSkill/)
 
 ## Citation
 
