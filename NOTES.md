@@ -1,7 +1,17 @@
 # Release notes
 
 This repository was built by copying the files needed for the TEST evaluation out of the research code base
-and rewriting paths and names. This file lists the 32 frozen programs and every change made for the release. Program logic was not changed.
+and rewriting paths and names. This file lists the 32 frozen programs and every change made for the release. Program logic was not changed, except the G1 render guard (change 13).
+
+## Test environment
+
+All numbers in the paper were produced on Linux servers with **NVIDIA H800** GPUs (headless EGL rendering, SAM3 on
+the same GPUs), with the Python and MuJoCo versions pinned in `requirements*.txt`. Episodes are simulated on the
+CPU but rendered and segmented on the GPU, so on other GPUs, drivers or CPUs the results can differ slightly: a few
+seeds near a decision boundary may flip between success and failure. As a check, the release was re-run from a fresh
+clone on an RTX 4090 (driver 580.95.05): xTrainer collect_apple 50/50, Franka collect_apple 47/50 and the G1 cells
+stack_cups 50/50, open_drawer_and_place_object 50/50, put_mug_on_box 40/50, lift_box 40/50 and sweep_objects 16/50,
+all identical to the paper.
 
 ## (a) The 32 frozen programs
 
@@ -50,7 +60,7 @@ Notes:
 
 ## (b) Changes made for the release
 
-No program logic, scorer, world or layout content was changed. The changes are:
+No scorer, world or layout content was changed, and program logic was changed only in item 13. The changes are:
 
 1. **Relative paths.** The repository root is computed at run time (`RESET_ROOT`: from the environment, else the
    nearest parent directory of the file that contains `eval.py`); absolute project paths in Python code were
@@ -77,3 +87,11 @@ No program logic, scorer, world or layout content was changed. The changes are:
     `eval.py`, `requirements*.txt` and these documentation files are new.
 12. **Names.** Internal names were replaced by the public robot and module names used here, in file names, module
     names, file contents and environment-variable prefixes.
+13. **G1 render guard (collect_apple, collect_cubes).** The guard in
+    `programs/g1/collect_{apple,cubes}/render_guard_b3_r1.py` accepts a camera frame once three consecutive renders
+    agree. It originally required bit-identical RGB. On some GPUs and drivers multisampled RGB readback differs by a
+    few values between identical renders, and the guard then never accepts a frame. The release accepts RGB when at
+    most 0.1% of its values differ (depth must still match exactly). Where renders are bit-identical, as on the H800
+    machines used for the paper, it accepts exactly the same frames as before.
+    Checked on the RTX 4090 above, TEST layouts 0-4: collect_apple 5/5 and collect_cubes 3/5, the same outcome
+    per seed as the paper's runs (before the change both cells failed every episode on that GPU).

@@ -4,3 +4,6 @@ __pycache__/
 .venv-g1/
 results/
 .DS_Store
+.venv-sam3/
+py311/
+py312/

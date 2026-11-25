@@ -16,14 +16,15 @@ weights are **not** redistributed here.
 2. Install SAM3 from the official repository, https://github.com/facebookresearch/sam3 (we used commit
    `0570b3a5be9c4e694f23d85232fb55f4a6f1f7fc`), following its instructions, e.g.
    `git clone https://github.com/facebookresearch/sam3 && .venv-sam3/bin/pip install -e ./sam3`.
-3. Download the SAM3 checkpoint `sam3.pt` from the official source after accepting the SAM License.
+3. Download the checkpoint. It is gated: request access at https://huggingface.co/facebook/sam3 , then
+   `hf auth login` and `hf download facebook/sam3 sam3.pt --local-dir <dir>`; set `SAM3_CHECKPOINT=<dir>/sam3.pt`.
 4. Start the server from the repository root (it imports `rsi.perception_sam3`, which also needs numpy and OpenCV):
    ```bash
    SAM3_CHECKPOINT=$SAM3_CHECKPOINT RSI_SAM3_ADDR=<sam3 socket> PYTHONPATH=. \
        .venv-sam3/bin/python -m rsi.sam3_service
    ```
    It prints `SAM3_SERVICE ready <sam3 socket>` when it accepts connections. Use the same `<sam3 socket>` value
-   for `eval.py` (the two programs have different built-in defaults, so always set `RSI_SAM3_ADDR` explicitly).
+   for `eval.py` (both default to `<system temp dir>/sam3.sock`; setting `RSI_SAM3_ADDR` explicitly avoids surprises).
 
 The server builds the SAM3 image model (`build_sam3_image_model`, `Sam3Processor` with confidence threshold 0.3),
 handles each client connection in its own thread, and runs inference under one lock with bfloat16 autocast.

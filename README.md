@@ -102,11 +102,11 @@ conda create -y -p ./py311 python=3.11 && ./py311/bin/python -m venv .venv-g1 &&
 
 **SAM3.** The programs segment objects with [SAM3](https://github.com/facebookresearch/sam3) through a small shared
 server. SAM3 and its checkpoint are not redistributed: request access to the gated checkpoint on Hugging Face
-(`facebook/sam3`), log in with `huggingface-cli login`, download `sam3.pt`, and set up the server environment as in
+(`facebook/sam3`), log in with `hf auth login`, download `sam3.pt` (`hf download facebook/sam3 sam3.pt`), and set up the server environment as in
 [docs/SAM3_SERVICE.md](docs/SAM3_SERVICE.md). Then start it:
 
 ```bash
-export RSI_SAM3_ADDR=/tmp/reset_sam3.sock
+export RSI_SAM3_ADDR=/tmp/sam3.sock
 SAM3_CHECKPOINT=/path/to/sam3.pt PYTHONPATH=. .venv-sam3/bin/python -m rsi.sam3_service   # prints "SAM3_SERVICE ready"
 ```
 
@@ -115,16 +115,16 @@ SAM3_CHECKPOINT=/path/to/sam3.pt PYTHONPATH=. .venv-sam3/bin/python -m rsi.sam3_
 With the SAM3 server running, in a second shell:
 
 ```bash
-export RSI_SAM3_ADDR=/tmp/reset_sam3.sock
+export RSI_SAM3_ADDR=/tmp/sam3.sock
 
 # one cell: Franka, Stack Cups, all 50 TEST layouts
 .venv/bin/python eval.py --robot franka --task stack_cups --layouts test
 
 # a few layouts, more parallel episodes
-.venv/bin/python eval.py --robot g1 --task lift_box --layouts test --seeds 0-9 --workers 8
+.venv/bin/python eval.py --robot g1 --task lift_box --layouts test --seeds 0-9 --workers 4
 
 # all 32 cells, then the table next to the paper's numbers
-.venv/bin/python eval.py --all --layouts test --workers 16
+.venv/bin/python eval.py --all --layouts test --workers 3
 .venv/bin/python eval.py --table
 ```
 
@@ -133,9 +133,18 @@ Tasks: `collect_apple`, `collect_cubes`, `stack_cups`, `build_tower`, `put_mug_o
 `open_drawer_and_place_object`, `sweep_objects`, `lift_box`.
 Results are written to `results/<robot>/<task>/<run>/`.
 
-An episode takes roughly 30 s to 5 min on one CPU core (G1 is the slowest). Simulation is not bitwise reproducible
-across machines and GPU drivers, so a few seeds near a decision boundary can flip; expect per-cell rates close to the
-table rather than identical.
+**Memory sets the number of workers.** Each episode is one process. xTrainer and Franka episodes need under 1 GB,
+but LIFT2 episodes briefly peak at 10-16 GB and G1 episodes at 6-8 GB. Choose `--workers` from free RAM: about
+free RAM / 16 GB for LIFT2 and / 8 GB for G1 (3 on a 64 GB machine); xTrainer and Franka can use many more.
+
+An episode takes 10 s to about 2 min on one CPU core (a few LIFT2 episodes up to about 14 min). On an RTX 4090 with
+4 workers, one 50-layout cell takes 2-10 min for xTrainer, Franka and G1, and about an hour for LIFT2 Apple.
+
+Simulation is not bitwise reproducible across machines and GPU drivers, so a few seeds near a decision boundary can
+flip; expect per-cell rates close to the table rather than identical.
+
+The paper's numbers were produced on NVIDIA H800 GPUs; on other GPUs or drivers a few seeds can differ
+(see [NOTES.md](NOTES.md#test-environment)).
 
 ## Documentation
 

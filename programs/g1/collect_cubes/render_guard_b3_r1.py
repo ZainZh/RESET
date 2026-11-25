@@ -70,7 +70,12 @@ def guard_observe(cb):
         return ok
 
     def same(a, b):
-        return np.array_equal(a['rgb'], b['rgb']) and np.allclose(a['depth'], b['depth'], atol=1e-6, rtol=0)
+        # Release change: on some GPUs/drivers multisampled (MSAA) RGB readback differs by a few values between
+        # identical renders, so RGB is accepted if at most 0.1% of its values differ. Depth must still match.
+        # On the machine used for the paper (bit-identical renders) this accepts exactly the same frames.
+        ra, rb = a['rgb'], b['rgb']
+        rgb_ok = ra.shape == rb.shape and np.count_nonzero(ra != rb) <= 1e-3 * ra.size
+        return rgb_ok and np.allclose(a['depth'], b['depth'], atol=1e-6, rtol=0)
 
     def observe():
         STATS['observe_calls'] += 1

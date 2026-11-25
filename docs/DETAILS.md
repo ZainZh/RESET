@@ -9,10 +9,10 @@ Start the SAM3 server ([SAM3_SERVICE.md](SAM3_SERVICE.md)), then from the reposi
 RSI_SAM3_ADDR=<sam3 socket> RESET_EGL_DEVICES=0 .venv/bin/python eval.py --robot franka --task stack_cups --layouts test
 
 # a subset of layouts, more parallel episodes
-RSI_SAM3_ADDR=<sam3 socket> .venv/bin/python eval.py --robot g1 --task lift_box --layouts test --seeds 0-9 --workers 8
+RSI_SAM3_ADDR=<sam3 socket> .venv/bin/python eval.py --robot g1 --task lift_box --layouts test --seeds 0-9 --workers 4
 
 # all 32 cells, one after another
-RSI_SAM3_ADDR=<sam3 socket> .venv/bin/python eval.py --all --layouts test --workers 16
+RSI_SAM3_ADDR=<sam3 socket> .venv/bin/python eval.py --all --layouts test --workers 3
 
 # print the table of the latest TEST run per cell next to the paper numbers
 .venv/bin/python eval.py --table
@@ -27,8 +27,8 @@ Environment variables:
 
 | variable | meaning | default |
 |---|---|---|
-| `RSI_SAM3_ADDR` | unix socket of the running SAM3 server | `<system temp dir>/reset_sam3.sock` |
-| `RESET_EGL_DEVICES` | comma-separated EGL device indices used for rendering (xtrainer, franka, lift2) | `0` |
+| `RSI_SAM3_ADDR` | unix socket of the running SAM3 server | `<system temp dir>/sam3.sock` |
+| `RESET_EGL_DEVICES` | comma-separated EGL device indices used for rendering | `0` (`eval.py` passes it to every robot; if you call `rsi/eval/g1/launch.py` directly its own default is `0,1`, so set it on a single-GPU machine) |
 | `RESET_PYTHON` | interpreter for xtrainer / franka / lift2 | interpreter running `eval.py` |
 | `RESET_G1_PYTHON` | interpreter for g1 | `.venv-g1/bin/python` |
 
@@ -50,6 +50,19 @@ minutes per cell on our machine.
 reproducible across machines, GPU drivers and CPU instruction sets (rendering and contact solving produce slightly
 different floating-point results, and SAM3 runs on the GPU). Individual seeds near a decision boundary can flip
 between success and failure, so expect per-cell rates close to, not identical with, the table above.
+
+## Known issues
+
+- **G1 Apple and Cubes, render guard.** These programs wait until consecutive camera renders agree. On some GPU
+  drivers multisampled (MSAA) RGB readback differs by a few values from call to call, so the release accepts RGB when
+  at most 0.1% of its values differ (`NOTES.md`, change 13).
+- **No SAM3 server.** If nothing listens on `RSI_SAM3_ADDR`, every episode fails within about a second with a
+  `FileNotFoundError` and is counted as a failure. Start the server first and check that it printed
+  `SAM3_SERVICE ready`.
+- **Memory.** Peak memory per episode process measured on a 64 GB machine: xTrainer and Franka 0.5-0.9 GB; LIFT2
+  9-16 GB on collect_apple, build_tower, open_drawer and put_mug_on_box (short spikes), 0.7 GB on sweep_objects;
+  G1 about 6 GB, build_tower 7.5 GB. The SAM3 server uses about 4 GB of GPU memory. Running out of memory kills
+  episodes (and, depending on the system, other processes in the same session).
 
 ## Disclosures
 
